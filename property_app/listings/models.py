@@ -1,11 +1,10 @@
-from django.db import models
 from __future__ import annotations
+from django.db import models
 
 import os
 import uuid
 
 from django.core.exceptions import ValidationError
-from django.db import models
 from django.utils.text import slugify  #slugify is used to create url-friendly slugs from strings.
 
 # generating dynamic file location for images for each property
@@ -38,7 +37,7 @@ class Location(models.Model):
         return self.name
 
 class Property(models.Model):
-    external_id = models.CharField(unique=True)
+    external_id = models.CharField(max_length=50, unique=True)
     location = models.ForeignKey(Location, on_delete=models.PROTECT, related_name="properties")
     # 'related_name' allows to write dhaka.properties.all(), otherwise we had to write dhaka.property_set.all()
 
@@ -75,7 +74,7 @@ class PropertyImage(models.Model):
                 qs = qs.exclude(pk = self.pk)
             
             if qs.exists():
-                raise ValidationError("Only one primary image can be set per property: is_primary")
+                raise ValidationError({"is_primary": "Only one primary image can be set per property"})
 
     def save(self, *args, **kwargs):
         self.full_clean()
