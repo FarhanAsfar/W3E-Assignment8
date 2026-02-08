@@ -8,8 +8,19 @@ from django.core.exceptions import ValidationError
 from django.db import models
 from django.utils.text import slugify  #slugify is used to create url-friendly slugs from strings.
 
-# Create your models here.
+# generating dynamic file location for images for each property
+def property_image_upload_path(instance: "PropertyImage", filename: str):
+    """
+    base folder: /properties
+    {instance.property.external_id}: creates a sub-folder named after the property's id keeping all images for one property in a separate place. 
+    """
+    ext = os.path.splitext(filename)[1].lower()
 
+    safe_ext = ext if ext else ".jpg" #if the file doesn't have any extension, attach .jpg
+
+    return f"properties/{instance.property.external_id}/{uuid.uuid4().hex}{safe_ext}"
+
+# Create your models here.
 class Location(models.Model):
     name = models.CharField(max_length=120, unique=True)
     slug = models.SlugField(max_length=140, unique=True, blank=True)
