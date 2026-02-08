@@ -25,3 +25,20 @@ class Location(models.Model):
 
     def __str__(self):
         return self.name
+
+class Property(models.Model):
+    external_id = models.CharField(unique=True)
+    location = models.ForeignKey(Location, on_delete=models.PROTECT, related_name="properties")
+    # 'related_name' allows to write dhaka.properties.all(), otherwise we had to write dhaka.property_set.all()
+
+    address = models.CharField(max_length=200)
+    title = models.CharField(max_length=200)
+    description = models.TextField(blank=True)
+
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ["-created_at"]
+    
+    def __str__(self):
+        return f"{self.external_id} - {self.title}"
