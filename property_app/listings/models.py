@@ -42,3 +42,33 @@ class Property(models.Model):
     
     def __str__(self):
         return f"{self.external_id} - {self.title}"
+    
+
+class PropertyImage(models.Model):
+    property = models.ForeignKey(Property, on_delete=models.CASCADE, related_name="images")
+    image = models.ImageField(upload_to=property_image_upload_path)
+    is_primary = models.BooleanField(default=False)
+    alt_text = models.CharField(max_length=150, blank=True)
+    
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ["-is_primary", "created_at"]
+    
+    # ensuring that each property have only one primary image.
+    def clean(self):
+        if self.is_primary and self.property_id:
+            qs = PropertyImage.objects.filter(property_id = self.property_id, is_primary = True)
+
+            if self.pk:
+                qs = qs.exclude(pk = self.pk)
+            
+            if qs.exists():
+                raise ValidationError("Only one primary image can be set per property: is_primary")
+
+    def save(self, *args, **kwargs):
+        self.full_clean()
+        super().save(*args, **kwargs)
+    
+    def __str__(self):
+        return f"Image for {self.property.external_id} (primary={self.is_primary})"
