@@ -20,6 +20,23 @@ class LocationViewSet(viewsets.ReadOnlyModelViewSet):
         if len(q) < 3:
             return Response({"results": []})
 
-        qs = Location.objects.filter(name__isstartswith=q).order_by("name")[:5]
+        qs = Location.objects.filter(name__istartswith=q).order_by("name")[:5]
         data = LocationSerializer(qs, many=True).data
         return Response({"results": data})
+
+
+class PropertyViewSet(viewsets.ReadOnlyModelViewSet):
+    queryset = Property.objects.select_related("location").all()
+
+    def get_serializer_class(self):
+        if self.action == "retrieve":
+            return PropertyDetailSerializer
+        return PropertyListSerializer
+    
+    def get_queryset(self):
+        qs = super().get_queryset()
+        location_name = (self.request.query_params.get("location") or "").strip() #get the location from the url
+                         
+        if location_name:
+            qs = qs.filter(location__name__iexact = location_name)
+        return qs  
