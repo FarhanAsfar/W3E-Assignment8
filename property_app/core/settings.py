@@ -126,4 +126,5 @@ MEDIA_ROOT = BASE_DIR / "media"
 REST_FRAMEWORK = {
     "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
     "PAGE_SIZE": 10,
+    "EXCEPTION_HANDLER": "listings.exceptions.api_exception_handler",
 }
