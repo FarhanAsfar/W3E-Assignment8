@@ -41,6 +41,8 @@ class Property(models.Model):
     location = models.ForeignKey(Location, on_delete=models.PROTECT, related_name="properties")
     # 'related_name' allows to write dhaka.properties.all(), otherwise we had to write dhaka.property_set.all()
 
+    property_name = models.CharField(max_length=120, blank=True)
+    country = models.CharField(max_length=50)
     address = models.CharField(max_length=200)
     title = models.CharField(max_length=200)
     description = models.TextField(blank=True)
