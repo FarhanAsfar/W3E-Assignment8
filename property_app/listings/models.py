@@ -53,15 +53,14 @@ class Property(models.Model):
         ordering = ["-created_at"]
     
     def save(self, *args, **kwargs):
-        if not self.pk:
-            super().save(*args, **kwargs)
+        # making sure to have an primary key
+        creating = self.pk is None
+        super().save(*args, **kwargs)
             
-        if not self.external_id:    
+        if creating and not self.external_id:    
             self.external_id = f"PROP-{self.pk:04d}"
-            kwargs['force_insert'] = False #making sure that its updated, not inserted a new one.
-            super().save(*args, **kwargs)
-        else:
-            super().save(*args, **kwargs)
+            super().save(update_fields=["external_id"])
+        
         
     def __str__(self):
         return f"{self.external_id} - {self.title}"
