@@ -10,3 +10,9 @@ class LocationAdmin(admin.ModelAdmin):
     search_fields = ("name",)
     prepopulated_fields = {"slug": ("name",)}
     ordering = ("name",)
+
+class PropertyImageInline(admin.TabularInline):
+    model = PropertyImage
+    extra = 1
+    fields = ("image", "is_primary", "alt_text")
+    can_delete = True 
