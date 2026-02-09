@@ -26,7 +26,7 @@ class LocationViewSet(viewsets.ReadOnlyModelViewSet):
 
 
 class PropertyViewSet(viewsets.ReadOnlyModelViewSet):
-    queryset = Property.objects.select_related("location").all()
+    queryset = Property.objects.select_related("location").prefetch_related("images").all() # prefetch_related-> include images in the initial fetch. it optimizes the search function, search results wil load with only 2 db queries.
 
     def get_serializer_class(self):
         if self.action == "retrieve":
