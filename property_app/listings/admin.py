@@ -19,7 +19,7 @@ class PropertyImageInline(admin.TabularInline):
 
 @admin.register(Property)
 class PropertyAdmin(admin.ModelAdmin):
-    list_display = ("external_id", "title", "location", "address", "created_at")
+    list_display = ("external_id", "title", "property_name", "country", "location", "address", "created_at")
     list_filter = ("location",)
     search_fields = ("external_id", "title", "address", "location__name")
     ordering = ("-created_at",)
