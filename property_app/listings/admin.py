@@ -21,7 +21,7 @@ class PropertyImageInline(admin.TabularInline):
 class PropertyAdmin(admin.ModelAdmin):
     list_display = ("external_id", "title", "property_name", "country", "location", "address", "created_at")
     list_filter = ("location",)
-    search_fields = ("external_id", "title", "address", "location__name")
+    search_fields = ("external_id", "title", "address", "property_name", "country", "location__name")
     ordering = ("-created_at",)
 
     inlines = [PropertyImageInline]
