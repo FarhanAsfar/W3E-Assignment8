@@ -1,0 +1,4 @@
+property_external_id,file_path,is_primary,alt_text
+PROP-0001,seed_media/apt1.jpg,true,Living room
+PROP-0001,seed_media/apt2.jpg,false,Bedroom
+PROP-0002,seed_media/apt3.jpg,true,Front view
