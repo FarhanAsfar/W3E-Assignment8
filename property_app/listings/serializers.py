@@ -56,3 +56,23 @@ class PropertyListSerializer(serializers.ModelSerializer):
         
         url = primary.image.url
         return request.build_absolute_uri(url) if request else url
+
+
+class PropertyDetailSerializer(serializers.ModelSerializer):
+    location = LocationSerializer(read_only=True)
+    images = PropertyImageSerializer(many=True, read_only=True)
+
+    class Meta:
+        model = Property
+        fields = [
+            "id",
+            "external_id",
+            "property_name",
+            "title",
+            "description",
+            "country",
+            "address",
+            "location",
+            "images",
+            "created_at"
+        ]
