@@ -37,7 +37,7 @@ class Location(models.Model):
         return self.name
 
 class Property(models.Model):
-    external_id = models.CharField(max_length=50, unique=True)
+    external_id = models.CharField(max_length=50, unique=True, editable=False)
     location = models.ForeignKey(Location, on_delete=models.PROTECT, related_name="properties")
     # 'related_name' allows to write dhaka.properties.all(), otherwise we had to write dhaka.property_set.all()
 
@@ -50,8 +50,20 @@ class Property(models.Model):
     class Meta:
         ordering = ["-created_at"]
     
+    def save(self, *args, **kwargs):
+        if not self.pk:
+            super().save(*args, **kwargs)
+            
+        if not self.external_id:    
+            self.external_id = f"PROP-{self.pk:04d}"
+            kwargs['force_insert'] = False #making sure that its updated, not inserted a new one.
+            super().save(*args, **kwargs)
+        else:
+            super().save(*args, **kwargs)
+        
     def __str__(self):
         return f"{self.external_id} - {self.title}"
+    
     
 
 class PropertyImage(models.Model):
@@ -75,7 +87,7 @@ class PropertyImage(models.Model):
             
             if qs.exists():
                 raise ValidationError({"is_primary": "Only one primary image can be set per property"})
-
+    
     def save(self, *args, **kwargs):
         self.full_clean()
         super().save(*args, **kwargs)
