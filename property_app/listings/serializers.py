@@ -59,8 +59,11 @@ class PropertyListSerializer(serializers.ModelSerializer):
 
 
 class PropertyDetailSerializer(serializers.ModelSerializer):
+    """
+    Including all the related data for a single property detail page, using nested serializers. 
+    """
     location = LocationSerializer(read_only=True)
-    images = PropertyImageSerializer(many=True, read_only=True)
+    images = PropertyImageSerializer(many=True, read_only=True) # creates a json list of all images related to that property
 
     class Meta:
         model = Property
