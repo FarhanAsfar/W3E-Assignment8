@@ -37,7 +37,7 @@ class Location(models.Model):
         return self.name
 
 class Property(models.Model):
-    external_id = models.CharField(max_length=50, unique=True, editable=False)
+    external_id = models.CharField(max_length=50, unique=True, editable=False, blank=True)
     location = models.ForeignKey(Location, on_delete=models.PROTECT, related_name="properties")
     # 'related_name' allows to write dhaka.properties.all(), otherwise we had to write dhaka.property_set.all()
 
