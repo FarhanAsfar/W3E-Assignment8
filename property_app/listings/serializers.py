@@ -16,10 +16,43 @@ class PropertyImageSerializer(serializers.ModelSerializer):
         fields = ["id", "image_url", "is_primary", "alt_text"]
 
     def get_image_url(self, obj):
-        request = self.context.get("request")
+        request = self.context.get("request") # by accessing the request from context, serializer get's the website domain.
 
         if not obj.image:
             return None
         
-        url = obj.image.url
+        url = obj.image.url # get the relative path of the image.
+
+        # combines the domain with the image path 
+        return request.build_absolute_uri(url) if request else url
+    
+class PropertyListSerializer(serializers.ModelSerializer):
+    """
+    This only sends the primary_image_url with the other fields. It will help while showing a lot of properties on a single page. 
+    """
+    location_name = serializers.CharField(source="location.name", read_only=True)
+    primary_image_url = serializers.SerializerMethodField()
+
+    class Meta:
+        model = Property
+        fields = [
+            "id",
+            "external_id",
+            "title",
+            "address",
+            "country",
+            "location_name",
+            "primary_image_url",
+        ]
+    
+    def get_primary_image_url(self, obj):
+        request = self.context.get("request")
+
+        # searching through related images of a single property instance to find the primary image.
+        primary = obj.images.filter(is_primary=True).first()
+        
+        if not primary or not primary.image:
+            return None
+        
+        url = primary.image.url
         return request.build_absolute_uri(url) if request else url
