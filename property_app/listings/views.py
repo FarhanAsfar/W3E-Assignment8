@@ -5,7 +5,7 @@ from rest_framework.decorators import action
 from rest_framework.exceptions import ValidationError
 from rest_framework.response import Response
 
-from .models import Location, Property, 
+from .models import Location, Property 
 from .serializers import (LocationSerializer, PropertyListSerializer, PropertyDetailSerializer,)
 
 
