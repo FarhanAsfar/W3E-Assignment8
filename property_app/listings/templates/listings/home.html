@@ -1,0 +1,33 @@
+{% extends "listings/base.html" %}
+{% load static %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <h1>Find properties by location</h1>
+  <p>Type a location name (min 3 letters) to get suggestions.</p>
+
+  <div class="search-card">
+    <div class="search-row">
+      <div class="search-box">
+        <input id="locationInput" type="text" placeholder="e.g. New York" autocomplete="off" />
+        <div id="suggestions" class="suggestions hidden"></div>
+      </div>
+
+      <button id="searchBtn" class="btn">Search</button>
+    </div>
+
+    <div id="searchMeta" class="meta"></div>
+  </div>
+</section>
+
+<section>
+  <!-- <h2 class="section-title">Results</h2> -->
+  <div id="results" class="grid"></div>
+  <div id="pagination" class="pagination"></div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'listings/js/home.js' %}"></script>
+{% endblock %}
