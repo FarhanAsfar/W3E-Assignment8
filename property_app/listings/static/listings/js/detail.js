@@ -19,30 +19,66 @@ async function fetchDetail(id) {
 }
 
 function renderGallery(images) {
-  if (!images || !images.length) return "<p class='meta'>No images available.</p>";
+  if (!images || !images.length) {
+    return "<p class='meta'>No images available.</p>";
+  }
 
   const primary = images.find(i => i.is_primary) || images[0];
   const others = images.filter(i => i !== primary);
 
-  const primaryHtml = primary.image_url
-    ? `<img class="card-img" style="height:340px;border-radius:12px;" src="${primary.image_url}" alt="${escapeHtml(primary.alt_text)}">`
+  const mainImage = primary.image_url
+    ? `<img id="mainImage" class="main-image" src="${primary.image_url}" alt="${escapeHtml(primary.alt_text)}">`
     : "";
 
-  const thumbs = others.map(img => {
+  const thumbs = images.map(img => {
     if (!img.image_url) return "";
-    return `<img class="card-img" style="height:120px;border-radius:12px;" src="${img.image_url}" alt="${escapeHtml(img.alt_text)}">`;
+    return `
+      <img 
+        class="thumb-image ${img === primary ? "active" : ""}" 
+        src="${img.image_url}" 
+        alt="${escapeHtml(img.alt_text)}"
+        data-src="${img.image_url}"
+      >
+    `;
   }).join("");
 
   return `
-    <div style="display:grid; gap:12px;">
-      ${primaryHtml}
-      <div class="grid">${thumbs}</div>
+    <div class="gallery">
+      <div class="main-image-wrapper">
+        ${mainImage}
+      </div>
+
+      <div class="thumbs-wrapper">
+        ${thumbs}
+      </div>
     </div>
   `;
 }
 
+function attachGalleryEvents() {
+  const gallery = document.querySelector(".gallery");
+  const mainImage = document.getElementById("mainImage");
+  if (!gallery || !mainImage) return;
+
+  // One listener handles all thumbnail clicks, even if DOM changes later.
+  gallery.addEventListener("click", (e) => {
+    const thumb = e.target.closest(".thumb-image");
+    if (!thumb) return;
+
+    const newSrc = thumb.getAttribute("data-src");
+    if (!newSrc) return;
+
+    mainImage.src = newSrc;
+
+    gallery.querySelectorAll(".thumb-image").forEach(t => t.classList.remove("active"));
+    thumb.classList.add("active");
+  });
+}
+
+
 async function init() {
   detailEl.innerHTML = "<p class='meta'>Loading...</p>";
+  
   try {
     const p = await fetchDetail(PROPERTY_ID);
 
@@ -60,6 +96,7 @@ async function init() {
         <p style="margin:0; color: var(--muted);">${escapeHtml(p.description || "No description")}</p>
       </div>
     `;
+    attachGalleryEvents();
   } catch (e) {
     detailEl.innerHTML = `<p class="meta">${escapeHtml(e.message)}</p>`;
   }
