@@ -46,6 +46,7 @@ class Property(models.Model):
     address = models.CharField(max_length=200)
     title = models.CharField(max_length=200)
     description = models.TextField(blank=True)
+    slug = models.SlugField(max_length=200, blank=True)
 
     created_at = models.DateTimeField(auto_now_add=True)
 
@@ -57,9 +58,20 @@ class Property(models.Model):
         creating = self.pk is None
         super().save(*args, **kwargs)
             
+        updates = []
+
+        # generate external_id
         if creating and not self.external_id:    
             self.external_id = f"PROP-{self.pk:04d}"
-            super().save(update_fields=["external_id"])
+            updates.append("external_id")
+
+        # generate slug with title+pk for uniqueness
+        if creating and not self.slug:
+            self.slug = f"{slugify(self.title)}-{self.pk}"
+            updates.append("slug")
+        
+        if updates:
+            super().save(update_fields=updates)
         
         
     def __str__(self):

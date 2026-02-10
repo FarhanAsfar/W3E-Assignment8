@@ -31,6 +31,7 @@ class PropertyListSerializer(serializers.ModelSerializer):
     This only sends the primary_image_url with the other fields. It will help while showing a lot of properties on a single page. 
     """
     location_name = serializers.CharField(source="location.name", read_only=True)
+    location_slug = serializers.CharField(source="location.slug", read_only=True)
     primary_image_url = serializers.SerializerMethodField()
 
     class Meta:
@@ -41,7 +42,9 @@ class PropertyListSerializer(serializers.ModelSerializer):
             "title",
             "address",
             "country",
+            "slug",
             "location_name",
+            "location_slug",
             "primary_image_url",
         ]
     

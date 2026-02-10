@@ -53,7 +53,7 @@ function renderProperties(items) {
       : `<div class="card-img"></div>`;
 
     return `
-      <a class="card" href="/properties/${p.id}/">
+      <a class="card" href="/properties/${p.location_slug}/${p.slug}/">
         ${img}
         <div class="card-body">
           <p class="card-title">${escapeHtml(p.title)}</p>

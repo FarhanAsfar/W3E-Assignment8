@@ -3,5 +3,5 @@ from . import views_pages
 
 urlpatterns = [
     path("", views_pages.home, name="home"),
-    path("properties/<int:pk>/", views_pages.property_detail_page, name="property_detail_page"),
+    path("properties/<slug:location_slug>/<slug:property_slug>/", views_pages.property_detail_page, name="property_detail_page"),
 ]
