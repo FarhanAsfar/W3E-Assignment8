@@ -20,7 +20,7 @@ class LocationViewSet(viewsets.ReadOnlyModelViewSet):
         if len(q) < 3:
             return Response({"results": []})
 
-        qs = Location.objects.filter(name__istartswith=q).order_by("name")[:5]
+        qs = Location.objects.filter(name__icontains=q).order_by("name")[:5]
         data = LocationSerializer(qs, many=True).data
         return Response({"results": data})
 

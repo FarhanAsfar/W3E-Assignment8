@@ -1,0 +1,21 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% block title %}Property App{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'listings/css/styles.css' %}">
+</head>
+<body>
+  {% include "listings/partials/navbar.html" %}
+
+  <main class="container">
+    {% block content %}{% endblock %}
+  </main>
+
+  {% include "listings/partials/footer.html" %}
+
+  {% block scripts %}{% endblock %}
+</body>
+</html>
