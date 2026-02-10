@@ -83,19 +83,31 @@ async function init() {
     const p = await fetchDetail(PROPERTY_ID);
 
     detailEl.innerHTML = `
-      <div class="card" style="padding:14px;">
-        <h1 style="margin:0 0 8px;">${escapeHtml(p.title)}</h1>
-        <p class="meta" style="margin:0 0 12px;">
-          ${escapeHtml(p.address)}, ${escapeHtml(p.country)} •
-          Location: ${escapeHtml(p.location?.name || "")}
-        </p>
+  <div class="card" style="padding:14px;">
+    <h1 style="margin:0 0 8px;">${escapeHtml(p.title)}</h1>
+    <p class="meta" style="margin:0 0 12px;">
+      ${escapeHtml(p.address)}, ${escapeHtml(p.country)} •
+      Location: ${escapeHtml(p.location?.name || "")}
+    </p>
 
-        ${renderGallery(p.images)}
+    ${renderGallery(p.images)}
 
-        <h3 style="margin:16px 0 6px;">Description</h3>
-        <p style="margin:0; color: var(--muted);">${escapeHtml(p.description || "No description")}</p>
+    <div style="margin-top:16px;">
+      <div style="display:grid; gap:8px;">
+        <div><b>Country:</b> ${escapeHtml(p.country || "-")}</div>
+        <div><b>Property name:</b> ${escapeHtml(p.property_name || "-")}</div>
+        <div><b>Location:</b> ${escapeHtml(p.location?.name || "-")}</div>
+        <div><b>Address:</b> ${escapeHtml(p.address || "-")}</div>
       </div>
-    `;
+
+      <h3 style="margin:16px 0 6px;">Description</h3>
+      <p style="margin:0; color: var(--muted);">
+        ${escapeHtml(p.description || "No description")}
+      </p>
+    </div>
+  </div>
+`;
+
     attachGalleryEvents();
   } catch (e) {
     detailEl.innerHTML = `<p class="meta">${escapeHtml(e.message)}</p>`;
