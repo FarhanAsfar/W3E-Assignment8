@@ -1,0 +1,14 @@
+{% extends "listings/base.html" %}
+{% load static %}
+{% block title %}Property Details{% endblock %}
+
+{% block content %}
+<div id="detail" class="detail"></div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const PROPERTY_ID = {{ property_id }};
+</script>
+<script src="{% static 'listings/js/detail.js' %}"></script>
+{% endblock %}
