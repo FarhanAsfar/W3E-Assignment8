@@ -1,4 +1,281 @@
 external_id,location_name,property_name,country,address,title,description
-PROP-0003,New York,Central Park Flat,USA,5th Ave,Cozy Apartment,Near Central Park
-PROP-0004,New York,Brooklyn Loft,USA,Brooklyn,Modern Loft,Great view
-PROP-0005,New Delhi,Connaught Place Studio,India,Connaught Place,Compact Studio,Walkable to shops and metro
+PROP-0001,Tokyo,Tokyo Park Apartment,Japan,796 Elm Road,Cozy Apartment,Excellent connectivity to major attractions
+PROP-0002,Tokyo,Tokyo Quarter Condo,Japan,612 Elm Street,Luxury Condo in Historic District,Ideal for short or long term stays
+PROP-0003,Tokyo,Central Tokyo Penthouse,Japan,784 Elm Road,Central Penthouse in Historic District,Located in a vibrant neighborhood
+PROP-0004,Tokyo,Tokyo Square Penthouse,Japan,560 Elm Plaza,Central Penthouse,Recently renovated with modern amenities
+PROP-0005,Tokyo,Elegant Tokyo Flat,Japan,321 King Way,Flat with Natural Light,Recently renovated with modern amenities
+PROP-0006,Tokyo,Tokyo Park Loft,Japan,166 Market Way,Charming Loft in Downtown,Perfect for professionals and families
+PROP-0007,Tokyo,Modern Tokyo Flat,Japan,345 First Street,Flat with Modern Kitchen,Walking distance to shops and restaurants
+PROP-0008,Tokyo,Waterfront Tokyo Loft,Japan,692 Oak Lane,Waterfront Historic District Loft,Located in a vibrant neighborhood
+PROP-0009,Tokyo,Tokyo Heights Penthouse,Japan,239 Queen Road,Urban Penthouse,Quiet area with easy access to city center
+PROP-0010,Tokyo,Tokyo Center Flat,Japan,846 Second Drive,Central Flat in Central,Walking distance to shops and restaurants
+PROP-0011,Seoul,Luxury Seoul Loft,South Korea,61 Second Road,Luxury Loft,Perfect for professionals and families
+PROP-0012,Seoul,Seoul Quarter Flat,South Korea,339 Main Avenue,Luxury Central Flat,Quiet area with easy access to city center
+PROP-0013,Seoul,Waterfront Seoul Townhouse,South Korea,163 Oak Way,Waterfront Central Townhouse,Quiet area with easy access to city center
+PROP-0014,Seoul,Seoul Park Studio,South Korea,507 Main Way,Spacious Studio,Fully furnished and ready to move in
+PROP-0015,Seoul,Seoul Heights Flat,South Korea,569 King Lane,Downtown Flat,Ideal for short or long term stays
+PROP-0016,Seoul,Elegant Seoul Loft,South Korea,982 High Drive,Elegant Loft in City Center,Ideal for short or long term stays
+PROP-0017,Seoul,Modern Seoul Studio,South Korea,960 Oak Street,Modern Historic District Studio,Quiet area with easy access to city center
+PROP-0018,Seoul,Seoul District Condo,South Korea,154 Elm Road,Cozy Condo,Ideal for short or long term stays
+PROP-0019,Seoul,Seoul Park Apartment,South Korea,586 Queen Street,Apartment with Natural Light,Perfect for professionals and families
+PROP-0020,Seoul,Elegant Seoul Flat,South Korea,527 Oak Lane,Flat with City Views,Excellent connectivity to major attractions
+PROP-0021,Bangkok,Bangkok District Townhouse,Thailand,169 Queen Way,Designer Downtown Townhouse,Recently renovated with modern amenities
+PROP-0022,Bangkok,Bangkok Square Penthouse,Thailand,390 First Drive,Designer Central Penthouse,Near parks and recreational facilities
+PROP-0023,Bangkok,Downtown Bangkok Loft,Thailand,133 Elm Drive,Downtown Loft in Central,Walking distance to shops and restaurants
+PROP-0024,Bangkok,Bangkok Park Studio,Thailand,669 Market Plaza,Stylish Studio,Near parks and recreational facilities
+PROP-0025,Bangkok,Bangkok District Studio,Thailand,132 Oak Plaza,Luxury Studio,Recently renovated with modern amenities
+PROP-0026,Bangkok,Bangkok Park Penthouse,Thailand,567 High Lane,Cozy Penthouse in City Center,Quiet area with easy access to city center
+PROP-0027,Bangkok,Bangkok Square Residence,Thailand,180 Oak Avenue,Historic Residence,Excellent connectivity to major attractions
+PROP-0028,Bangkok,Bangkok Center Loft,Thailand,249 High Plaza,Historic City Center Loft,Located in a vibrant neighborhood
+PROP-0029,Bangkok,Bangkok Quarter Townhouse,Thailand,1 Second Lane,Townhouse with Rooftop Access,Perfect for professionals and families
+PROP-0030,Bangkok,Elegant Bangkok Studio,Thailand,950 Park Boulevard,Elegant Studio in Downtown,Perfect for professionals and families
+PROP-0031,Singapore,Singapore Heights Loft,Singapore,628 Second Avenue,Loft with Great Views,Excellent connectivity to major attractions
+PROP-0032,Singapore,Singapore Quarter Residence,Singapore,601 Market Lane,Spacious Residence in City Center,Recently renovated with modern amenities
+PROP-0033,Singapore,Luxury Singapore Residence,Singapore,128 Market Drive,Luxury City Center Residence,Near parks and recreational facilities
+PROP-0034,Singapore,Premium Singapore Apartment,Singapore,467 Oak Lane,Apartment with Great Views,Recently renovated with modern amenities
+PROP-0035,Singapore,Singapore Square Flat,Singapore,778 Queen Street,Luxury Historic District Flat,Recently renovated with modern amenities
+PROP-0036,Singapore,Singapore Quarter Suite,Singapore,836 Oak Avenue,Suite with City Views,Near parks and recreational facilities
+PROP-0037,Singapore,Charming Singapore Loft,Singapore,813 Second Plaza,Charming Central Loft,Quiet area with easy access to city center
+PROP-0038,Singapore,Downtown Singapore Suite,Singapore,72 First Drive,Downtown Downtown Suite,Walking distance to shops and restaurants
+PROP-0039,Singapore,Singapore Park Suite,Singapore,676 Queen Road,Cozy Suite,Quiet area with easy access to city center
+PROP-0040,Singapore,Singapore Quarter Studio,Singapore,534 First Plaza,Cozy Studio in Central,Fully furnished and ready to move in
+PROP-0041,Mumbai,Mumbai District Residence,India,949 Main Way,Residence with Great Views,Excellent connectivity to major attractions
+PROP-0042,Mumbai,Stylish Mumbai Residence,India,490 Second Plaza,Stylish Downtown Residence,Walking distance to shops and restaurants
+PROP-0043,Mumbai,Mumbai Quarter Studio,India,141 King Road,Premium Studio,Near parks and recreational facilities
+PROP-0044,Mumbai,Mumbai Park Suite,India,294 High Square,Suite with City Views,Perfect for professionals and families
+PROP-0045,Mumbai,Designer Mumbai Studio,India,534 Second Boulevard,Designer Historic District Studio,Perfect for professionals and families
+PROP-0046,Mumbai,Mumbai Quarter Penthouse,India,499 High Square,Cozy Penthouse in City Center,Close to public transportation
+PROP-0047,Mumbai,Mumbai District Villa,India,983 King Boulevard,Elegant Villa,Walking distance to shops and restaurants
+PROP-0048,Mumbai,Mumbai Heights Townhouse,India,309 King Lane,Central Townhouse in Downtown,Walking distance to shops and restaurants
+PROP-0049,Mumbai,Mumbai District Studio,India,810 First Way,Downtown Downtown Studio,Located in a vibrant neighborhood
+PROP-0050,Mumbai,Central Mumbai Flat,India,570 King Place,Central Flat,Fully furnished and ready to move in
+PROP-0051,London,London Park Residence,United Kingdom,585 Second Plaza,Designer City Center Residence,Perfect for professionals and families
+PROP-0052,London,Contemporary London Condo,United Kingdom,86 King Street,Contemporary Historic District Condo,Recently renovated with modern amenities
+PROP-0053,London,Premium London Apartment,United Kingdom,204 Park Road,Premium Central Apartment,Perfect for professionals and families
+PROP-0054,London,London Heights Condo,United Kingdom,463 Oak Boulevard,Condo with Modern Kitchen,Recently renovated with modern amenities
+PROP-0055,London,Historic London Residence,United Kingdom,811 Queen Boulevard,Historic Historic District Residence,Close to public transportation
+PROP-0056,London,Historic London Studio,United Kingdom,455 Oak Square,Studio with Great Views,Walking distance to shops and restaurants
+PROP-0057,London,Designer London Flat,United Kingdom,835 Elm Avenue,Designer Flat,Near parks and recreational facilities
+PROP-0058,London,Historic London Penthouse,United Kingdom,822 Elm Square,Historic Penthouse,Walking distance to shops and restaurants
+PROP-0059,London,London Quarter Penthouse,United Kingdom,748 King Lane,Charming Penthouse,Recently renovated with modern amenities
+PROP-0060,London,London Heights Residence,United Kingdom,903 Park Road,Residence with Natural Light,Fully furnished and ready to move in
+PROP-0061,London,Modern London Suite,United Kingdom,487 Second Place,Modern Historic District Suite,Recently renovated with modern amenities
+PROP-0062,London,Urban London Studio,United Kingdom,918 King Lane,Urban Studio in Downtown,Located in a vibrant neighborhood
+PROP-0063,London,London District Townhouse,United Kingdom,176 Main Place,Contemporary Townhouse,Ideal for short or long term stays
+PROP-0064,London,London Heights Flat,United Kingdom,955 Market Boulevard,Contemporary City Center Flat,Quiet area with easy access to city center
+PROP-0065,London,London Center Penthouse,United Kingdom,75 King Plaza,Penthouse with Rooftop Access,Ideal for short or long term stays
+PROP-0066,Paris,Luxury Paris Condo,France,181 Park Street,Condo with Balcony,Excellent connectivity to major attractions
+PROP-0067,Paris,Paris Square Residence,France,170 High Avenue,Residence with Balcony,Quiet area with easy access to city center
+PROP-0068,Paris,Charming Paris Apartment,France,977 Second Avenue,Charming Apartment,Ideal for short or long term stays
+PROP-0069,Paris,Waterfront Paris Apartment,France,934 Oak Avenue,Waterfront Apartment in Downtown,Walking distance to shops and restaurants
+PROP-0070,Paris,Luxury Paris Flat,France,321 Park Boulevard,Luxury Downtown Flat,Recently renovated with modern amenities
+PROP-0071,Paris,Paris Heights Loft,France,436 King Lane,Contemporary Loft,Located in a vibrant neighborhood
+PROP-0072,Paris,Paris Heights Villa,France,34 Oak Avenue,Contemporary Villa in Downtown,Ideal for short or long term stays
+PROP-0073,Paris,Designer Paris Studio,France,140 Main Way,Designer Studio in Downtown,Walking distance to shops and restaurants
+PROP-0074,Paris,Contemporary Paris Residence,France,855 Main Place,Contemporary Residence in Historic District,Near parks and recreational facilities
+PROP-0075,Paris,Modern Paris Residence,France,29 Elm Avenue,Modern Residence,Recently renovated with modern amenities
+PROP-0076,Paris,Paris Heights Villa,France,909 Oak Avenue,Historic Villa in Central,Excellent connectivity to major attractions
+PROP-0077,Paris,Paris District Penthouse,France,555 Main Avenue,Penthouse with Natural Light,Perfect for professionals and families
+PROP-0078,Paris,Paris Heights Townhouse,France,672 Second Way,Downtown Townhouse,Close to public transportation
+PROP-0079,Paris,Paris Square Apartment,France,670 Elm Lane,Apartment with Modern Kitchen,Close to public transportation
+PROP-0080,Paris,Central Paris Suite,France,827 King Street,Central Suite,Excellent connectivity to major attractions
+PROP-0081,Berlin,Berlin Heights Flat,Germany,874 Main Drive,Downtown Flat in Historic District,Perfect for professionals and families
+PROP-0082,Berlin,Berlin Heights Villa,Germany,800 First Avenue,Contemporary Villa,Fully furnished and ready to move in
+PROP-0083,Berlin,Stylish Berlin Villa,Germany,471 Elm Lane,Villa with Great Views,Close to public transportation
+PROP-0084,Berlin,Designer Berlin Suite,Germany,209 Elm Plaza,Designer Suite,Ideal for short or long term stays
+PROP-0085,Berlin,Waterfront Berlin Townhouse,Germany,215 Main Plaza,Waterfront Downtown Townhouse,Fully furnished and ready to move in
+PROP-0086,Berlin,Downtown Berlin Flat,Germany,230 Oak Drive,Downtown Flat in Central,Perfect for professionals and families
+PROP-0087,Berlin,Berlin Center Residence,Germany,121 Oak Avenue,Cozy Downtown Residence,Perfect for professionals and families
+PROP-0088,Berlin,Berlin Heights Flat,Germany,751 Park Way,Contemporary Historic District Flat,Recently renovated with modern amenities
+PROP-0089,Berlin,Spacious Berlin Townhouse,Germany,509 Elm Square,Spacious Townhouse in Central,Close to public transportation
+PROP-0090,Berlin,Spacious Berlin Penthouse,Germany,323 Elm Drive,Penthouse with Great Views,Excellent connectivity to major attractions
+PROP-0091,Berlin,Spacious Berlin Flat,Germany,272 Second Avenue,Spacious Historic District Flat,Located in a vibrant neighborhood
+PROP-0092,Berlin,Berlin Heights Residence,Germany,535 Main Avenue,Stylish Residence,Close to public transportation
+PROP-0093,Berlin,Berlin Center Suite,Germany,286 Oak Lane,Modern Suite in Historic District,Walking distance to shops and restaurants
+PROP-0094,Berlin,Contemporary Berlin Residence,Germany,72 King Avenue,Contemporary Historic District Residence,Ideal for short or long term stays
+PROP-0095,Berlin,Central Berlin Penthouse,Germany,309 Park Avenue,Central Downtown Penthouse,Located in a vibrant neighborhood
+PROP-0096,Rome,Rome Center Condo,Italy,779 Oak Plaza,Spacious Condo in Downtown,Walking distance to shops and restaurants
+PROP-0097,Rome,Contemporary Rome Apartment,Italy,318 Elm Avenue,Apartment with Rooftop Access,Walking distance to shops and restaurants
+PROP-0098,Rome,Rome Heights Studio,Italy,142 King Boulevard,Studio with High Ceilings,Excellent connectivity to major attractions
+PROP-0099,Rome,Elegant Rome Villa,Italy,470 King Plaza,Elegant Villa,Ideal for short or long term stays
+PROP-0100,Rome,Charming Rome Condo,Italy,732 Second Place,Charming Condo in Central,Located in a vibrant neighborhood
+PROP-0101,Rome,Central Rome Townhouse,Italy,856 Queen Boulevard,Central Townhouse,Fully furnished and ready to move in
+PROP-0102,Rome,Rome Park Villa,Italy,872 First Road,Premium Villa,Fully furnished and ready to move in
+PROP-0103,Rome,Rome Heights Residence,Italy,202 King Way,Historic Central Residence,Near parks and recreational facilities
+PROP-0104,Rome,Contemporary Rome Villa,Italy,135 Elm Road,Contemporary Downtown Villa,Excellent connectivity to major attractions
+PROP-0105,Rome,Premium Rome Residence,Italy,826 High Avenue,Premium Downtown Residence,Excellent connectivity to major attractions
+PROP-0106,Rome,Rome District Penthouse,Italy,578 Second Place,Penthouse with City Views,Fully furnished and ready to move in
+PROP-0107,Rome,Spacious Rome Suite,Italy,501 First Street,Suite with High Ceilings,Quiet area with easy access to city center
+PROP-0108,Rome,Rome Quarter Villa,Italy,535 Main Plaza,Villa with Balcony,Ideal for short or long term stays
+PROP-0109,Rome,Designer Rome Villa,Italy,27 Park Place,Designer Villa,Walking distance to shops and restaurants
+PROP-0110,Rome,Rome Heights Villa,Italy,84 Main Place,Stylish Villa,Near parks and recreational facilities
+PROP-0111,Barcelona,Spacious Barcelona Condo,Spain,419 Second Road,Spacious Condo in Central,Recently renovated with modern amenities
+PROP-0112,Barcelona,Barcelona Heights Townhouse,Spain,749 Oak Avenue,Luxury Townhouse,Recently renovated with modern amenities
+PROP-0113,Barcelona,Barcelona Square Loft,Spain,163 Main Plaza,Spacious Historic District Loft,Close to public transportation
+PROP-0114,Barcelona,Spacious Barcelona Condo,Spain,545 Oak Drive,Spacious Condo,Fully furnished and ready to move in
+PROP-0115,Barcelona,Luxury Barcelona Apartment,Spain,737 High Road,Apartment with Modern Kitchen,Near parks and recreational facilities
+PROP-0116,Barcelona,Central Barcelona Suite,Spain,250 Queen Street,Central Suite,Walking distance to shops and restaurants
+PROP-0117,Barcelona,Barcelona Park Loft,Spain,641 Elm Lane,Downtown Loft in Central,Walking distance to shops and restaurants
+PROP-0118,Barcelona,Central Barcelona Penthouse,Spain,849 Park Road,Central Penthouse in Central,Near parks and recreational facilities
+PROP-0119,Barcelona,Spacious Barcelona Villa,Spain,549 Park Boulevard,Villa with City Views,Near parks and recreational facilities
+PROP-0120,Barcelona,Barcelona Center Penthouse,Spain,488 Elm Road,Stylish Penthouse in Historic District,Recently renovated with modern amenities
+PROP-0121,Barcelona,Barcelona Square Penthouse,Spain,204 Queen Avenue,Central Penthouse in Central,Quiet area with easy access to city center
+PROP-0122,Barcelona,Barcelona Quarter Villa,Spain,936 Queen Square,Stylish Villa in City Center,Located in a vibrant neighborhood
+PROP-0123,Barcelona,Historic Barcelona Apartment,Spain,889 Main Way,Historic Apartment,Ideal for short or long term stays
+PROP-0124,Barcelona,Barcelona Heights Suite,Spain,134 Queen Boulevard,Modern City Center Suite,Ideal for short or long term stays
+PROP-0125,Barcelona,Stylish Barcelona Suite,Spain,954 Second Lane,Stylish Suite,Perfect for professionals and families
+PROP-0126,Amsterdam,Elegant Amsterdam Apartment,Netherlands,767 High Avenue,Elegant Apartment,Close to public transportation
+PROP-0127,Amsterdam,Designer Amsterdam Loft,Netherlands,988 High Plaza,Designer Central Loft,Perfect for professionals and families
+PROP-0128,Amsterdam,Amsterdam Heights Townhouse,Netherlands,954 Market Boulevard,Spacious Downtown Townhouse,Perfect for professionals and families
+PROP-0129,Amsterdam,Amsterdam District Suite,Netherlands,249 First Street,Historic Central Suite,Perfect for professionals and families
+PROP-0130,Amsterdam,Amsterdam District Flat,Netherlands,288 Park Street,Charming Flat,Near parks and recreational facilities
+PROP-0131,Amsterdam,Amsterdam District Residence,Netherlands,292 Queen Place,Spacious Residence in Central,Recently renovated with modern amenities
+PROP-0132,Amsterdam,Amsterdam Park Apartment,Netherlands,573 Second Drive,Apartment with Natural Light,Ideal for short or long term stays
+PROP-0133,Amsterdam,Stylish Amsterdam Apartment,Netherlands,465 King Boulevard,Stylish Apartment,Perfect for professionals and families
+PROP-0134,Amsterdam,Modern Amsterdam Studio,Netherlands,191 Queen Way,Modern Central Studio,Excellent connectivity to major attractions
+PROP-0135,Amsterdam,Urban Amsterdam Condo,Netherlands,817 Elm Road,Urban Condo,Perfect for professionals and families
+PROP-0136,Amsterdam,Downtown Amsterdam Residence,Netherlands,812 Second Street,Downtown Residence,Located in a vibrant neighborhood
+PROP-0137,Amsterdam,Amsterdam Heights Townhouse,Netherlands,985 Market Avenue,Townhouse with Rooftop Access,Excellent connectivity to major attractions
+PROP-0138,Amsterdam,Historic Amsterdam Flat,Netherlands,681 Second Way,Historic Flat in Historic District,Ideal for short or long term stays
+PROP-0139,Amsterdam,Amsterdam Quarter Townhouse,Netherlands,888 Park Street,Premium Townhouse,Close to public transportation
+PROP-0140,Amsterdam,Amsterdam Heights Penthouse,Netherlands,397 Market Place,Urban Penthouse in Central,Recently renovated with modern amenities
+PROP-0141,Vienna,Cozy Vienna Loft,Austria,734 King Street,Cozy Loft,Excellent connectivity to major attractions
+PROP-0142,Vienna,Designer Vienna Loft,Austria,531 Queen Square,Loft with High Ceilings,Excellent connectivity to major attractions
+PROP-0143,Vienna,Urban Vienna Townhouse,Austria,204 First Road,Urban Townhouse in City Center,Ideal for short or long term stays
+PROP-0144,Vienna,Vienna Quarter Penthouse,Austria,398 Market Plaza,Downtown Historic District Penthouse,Excellent connectivity to major attractions
+PROP-0145,Vienna,Vienna Center Condo,Austria,572 Elm Lane,Premium Condo in Downtown,Fully furnished and ready to move in
+PROP-0146,Vienna,Elegant Vienna Studio,Austria,521 First Avenue,Elegant Central Studio,Walking distance to shops and restaurants
+PROP-0147,Vienna,Vienna Square Loft,Austria,725 Oak Place,Charming Loft in City Center,Quiet area with easy access to city center
+PROP-0148,Vienna,Central Vienna Penthouse,Austria,583 First Square,Central Historic District Penthouse,Perfect for professionals and families
+PROP-0149,Vienna,Vienna Quarter Condo,Austria,954 King Place,Contemporary Condo,Located in a vibrant neighborhood
+PROP-0150,Vienna,Urban Vienna Loft,Austria,486 Second Boulevard,Urban Loft,Close to public transportation
+PROP-0151,Vienna,Waterfront Vienna Studio,Austria,289 First Boulevard,Studio with Modern Kitchen,Walking distance to shops and restaurants
+PROP-0152,Vienna,Cozy Vienna Residence,Austria,784 Second Road,Cozy Residence in Downtown,Located in a vibrant neighborhood
+PROP-0153,Vienna,Stylish Vienna Studio,Austria,696 Second Lane,Stylish Studio,Quiet area with easy access to city center
+PROP-0154,Vienna,Spacious Vienna Penthouse,Austria,512 Queen Street,Spacious Penthouse,Located in a vibrant neighborhood
+PROP-0155,Vienna,Luxury Vienna Loft,Austria,211 Market Place,Luxury Central Loft,Ideal for short or long term stays
+PROP-0156,Prague,Prague Park Townhouse,Czech Republic,454 Elm Square,Townhouse with Rooftop Access,Quiet area with easy access to city center
+PROP-0157,Prague,Prague Park Residence,Czech Republic,235 Second Way,Residence with Natural Light,Walking distance to shops and restaurants
+PROP-0158,Prague,Prague Quarter Residence,Czech Republic,60 Second Plaza,Cozy Residence in Central,Near parks and recreational facilities
+PROP-0159,Prague,Cozy Prague Condo,Czech Republic,236 Queen Plaza,Cozy Condo in Downtown,Fully furnished and ready to move in
+PROP-0160,Prague,Prague District Townhouse,Czech Republic,623 King Avenue,Luxury Townhouse in Downtown,Near parks and recreational facilities
+PROP-0161,Prague,Prague District Apartment,Czech Republic,875 Oak Avenue,Contemporary Apartment in City Center,Ideal for short or long term stays
+PROP-0162,Prague,Central Prague Apartment,Czech Republic,302 Elm Place,Central Apartment,Perfect for professionals and families
+PROP-0163,Prague,Urban Prague Villa,Czech Republic,325 Market Street,Urban Villa in Downtown,Ideal for short or long term stays
+PROP-0164,Prague,Contemporary Prague Flat,Czech Republic,678 First Street,Contemporary Historic District Flat,Close to public transportation
+PROP-0165,Prague,Prague Quarter Townhouse,Czech Republic,466 King Avenue,Townhouse with City Views,Excellent connectivity to major attractions
+PROP-0166,Prague,Cozy Prague Flat,Czech Republic,163 Oak Avenue,Cozy Downtown Flat,Excellent connectivity to major attractions
+PROP-0167,Prague,Prague District Condo,Czech Republic,663 High Boulevard,Elegant Central Condo,Near parks and recreational facilities
+PROP-0168,Prague,Prague District Residence,Czech Republic,50 King Place,Residence with Modern Kitchen,Recently renovated with modern amenities
+PROP-0169,Prague,Waterfront Prague Residence,Czech Republic,602 Market Street,Waterfront Residence,Quiet area with easy access to city center
+PROP-0170,Prague,Prague Heights Condo,Czech Republic,882 Elm Drive,Historic Historic District Condo,Fully furnished and ready to move in
+PROP-0171,Budapest,Downtown Budapest Residence,Hungary,804 Elm Street,Residence with Modern Kitchen,Recently renovated with modern amenities
+PROP-0172,Budapest,Elegant Budapest Flat,Hungary,762 King Drive,Flat with Modern Kitchen,Near parks and recreational facilities
+PROP-0173,Budapest,Luxury Budapest Condo,Hungary,755 Second Plaza,Condo with Rooftop Access,Close to public transportation
+PROP-0174,Budapest,Budapest Heights Apartment,Hungary,421 Queen Boulevard,Central Apartment in Downtown,Ideal for short or long term stays
+PROP-0175,Budapest,Budapest Center Residence,Hungary,460 Market Square,Contemporary City Center Residence,Near parks and recreational facilities
+PROP-0176,Budapest,Spacious Budapest Studio,Hungary,155 First Place,Spacious Central Studio,Located in a vibrant neighborhood
+PROP-0177,Budapest,Budapest Square Flat,Hungary,567 Oak Way,Contemporary Downtown Flat,Close to public transportation
+PROP-0178,Budapest,Budapest Park Condo,Hungary,314 Elm Way,Cozy City Center Condo,Fully furnished and ready to move in
+PROP-0179,Budapest,Budapest Heights Condo,Hungary,179 First Street,Charming Condo,Ideal for short or long term stays
+PROP-0180,Budapest,Contemporary Budapest Condo,Hungary,682 Oak Drive,Contemporary Condo,Walking distance to shops and restaurants
+PROP-0181,Budapest,Budapest District Flat,Hungary,738 High Boulevard,Downtown Historic District Flat,Located in a vibrant neighborhood
+PROP-0182,Budapest,Waterfront Budapest Apartment,Hungary,988 First Square,Waterfront Apartment,Fully furnished and ready to move in
+PROP-0183,Budapest,Modern Budapest Loft,Hungary,171 First Place,Loft with Balcony,Close to public transportation
+PROP-0184,Budapest,Charming Budapest Townhouse,Hungary,589 Market Road,Charming Townhouse in Central,Close to public transportation
+PROP-0185,Budapest,Budapest Center Studio,Hungary,414 High Square,Central Studio,Walking distance to shops and restaurants
+PROP-0186,Athens,Modern Athens Residence,Greece,871 Second Street,Residence with City Views,Excellent connectivity to major attractions
+PROP-0187,Athens,Contemporary Athens Villa,Greece,612 Queen Road,Villa with Great Views,Quiet area with easy access to city center
+PROP-0188,Athens,Luxury Athens Residence,Greece,364 Queen Road,Luxury Residence in Downtown,Recently renovated with modern amenities
+PROP-0189,Athens,Charming Athens Villa,Greece,389 First Boulevard,Charming Villa,Close to public transportation
+PROP-0190,Athens,Downtown Athens Townhouse,Greece,235 Elm Avenue,Downtown Townhouse in Historic District,Perfect for professionals and families
+PROP-0191,Athens,Designer Athens Flat,Greece,606 Elm Drive,Designer Flat,Fully furnished and ready to move in
+PROP-0192,Athens,Athens District Loft,Greece,907 First Way,Urban Historic District Loft,Perfect for professionals and families
+PROP-0193,Athens,Luxury Athens Loft,Greece,30 King Place,Luxury Loft in Central,Located in a vibrant neighborhood
+PROP-0194,Athens,Modern Athens Villa,Greece,112 High Way,Modern Villa in Historic District,Excellent connectivity to major attractions
+PROP-0195,Athens,Athens Quarter Residence,Greece,261 Market Road,Elegant City Center Residence,Near parks and recreational facilities
+PROP-0196,Athens,Athens Center Penthouse,Greece,80 Main Plaza,Charming Penthouse,Excellent connectivity to major attractions
+PROP-0197,Athens,Charming Athens Suite,Greece,100 Elm Avenue,Charming Historic District Suite,Perfect for professionals and families
+PROP-0198,Athens,Athens Quarter Condo,Greece,998 Queen Square,Modern Downtown Condo,Quiet area with easy access to city center
+PROP-0199,Athens,Athens Heights Townhouse,Greece,669 Queen Road,Spacious Historic District Townhouse,Recently renovated with modern amenities
+PROP-0200,Athens,Athens Park Loft,Greece,637 Queen Drive,Loft with Great Views,Located in a vibrant neighborhood
+PROP-0201,New York,New York District Residence,USA,578 King Square,Spacious City Center Residence,Excellent connectivity to major attractions
+PROP-0202,New York,Contemporary New York Penthouse,USA,790 Second Boulevard,Contemporary Central Penthouse,Excellent connectivity to major attractions
+PROP-0203,New York,New York District Apartment,USA,221 First Lane,Premium Apartment,Close to public transportation
+PROP-0204,New York,Spacious New York Suite,USA,266 First Plaza,Spacious Downtown Suite,Perfect for professionals and families
+PROP-0205,New York,New York Park Condo,USA,71 High Plaza,Designer Condo,Perfect for professionals and families
+PROP-0206,New York,Cozy New York Flat,USA,532 Second Place,Cozy Central Flat,Ideal for short or long term stays
+PROP-0207,Los Angeles,Los Angeles Park Condo,USA,841 Park Road,Condo with City Views,Located in a vibrant neighborhood
+PROP-0208,Los Angeles,Cozy Los Angeles Villa,USA,189 King Road,Cozy Downtown Villa,Near parks and recreational facilities
+PROP-0209,Los Angeles,Los Angeles Center Villa,USA,472 Second Avenue,Designer Villa in Downtown,Perfect for professionals and families
+PROP-0210,Los Angeles,Elegant Los Angeles Flat,USA,442 Main Lane,Elegant Flat,Recently renovated with modern amenities
+PROP-0211,Los Angeles,Los Angeles Square Townhouse,USA,567 First Way,Modern Townhouse,Walking distance to shops and restaurants
+PROP-0212,Los Angeles,Los Angeles District Loft,USA,402 High Way,Loft with Rooftop Access,Near parks and recreational facilities
+PROP-0213,Chicago,Chicago Center Flat,USA,958 First Street,Downtown Flat in Central,Quiet area with easy access to city center
+PROP-0214,Chicago,Chicago Center Villa,USA,571 Park Drive,Elegant Villa,Close to public transportation
+PROP-0215,Chicago,Stylish Chicago Condo,USA,796 King Plaza,Stylish Condo,Near parks and recreational facilities
+PROP-0216,Chicago,Chicago Park Studio,USA,28 Elm Drive,Historic City Center Studio,Close to public transportation
+PROP-0217,Chicago,Chicago Park Suite,USA,249 Elm Street,Charming City Center Suite,Ideal for short or long term stays
+PROP-0218,Miami,Charming Miami Villa,USA,967 High Avenue,Charming Historic District Villa,Perfect for professionals and families
+PROP-0219,Miami,Historic Miami Residence,USA,944 Market Place,Historic Residence in City Center,Excellent connectivity to major attractions
+PROP-0220,Miami,Designer Miami Suite,USA,101 High Way,Designer Suite,Ideal for short or long term stays
+PROP-0221,Miami,Miami Square Studio,USA,196 High Lane,Cozy City Center Studio,Perfect for professionals and families
+PROP-0222,Miami,Miami Heights Studio,USA,949 Queen Way,Waterfront Studio in City Center,Quiet area with easy access to city center
+PROP-0223,Toronto,Toronto Park Loft,Canada,996 Second Road,Contemporary Loft in Central,Excellent connectivity to major attractions
+PROP-0224,Toronto,Stylish Toronto Studio,Canada,252 High Road,Stylish Studio in Historic District,Located in a vibrant neighborhood
+PROP-0225,Toronto,Toronto Center Condo,Canada,753 Oak Plaza,Historic Condo,Recently renovated with modern amenities
+PROP-0226,Toronto,Premium Toronto Loft,Canada,969 Market Avenue,Premium Historic District Loft,Ideal for short or long term stays
+PROP-0227,Toronto,Urban Toronto Penthouse,Canada,85 First Drive,Urban Historic District Penthouse,Close to public transportation
+PROP-0228,Toronto,Toronto Heights Loft,Canada,973 First Square,Charming Loft in Downtown,Walking distance to shops and restaurants
+PROP-0229,Sydney,Sydney Center Flat,Australia,637 Elm Boulevard,Flat with High Ceilings,Walking distance to shops and restaurants
+PROP-0230,Sydney,Sydney Center Townhouse,Australia,531 King Road,Waterfront Central Townhouse,Near parks and recreational facilities
+PROP-0231,Sydney,Stylish Sydney Suite,Australia,380 High Drive,Stylish Suite in Downtown,Quiet area with easy access to city center
+PROP-0232,Sydney,Urban Sydney Villa,Australia,373 Market Way,Urban Villa in Central,Perfect for professionals and families
+PROP-0233,Sydney,Historic Sydney Condo,Australia,566 High Lane,Historic Condo in Central,Near parks and recreational facilities
+PROP-0234,Sydney,Sydney Center Apartment,Australia,523 High Place,Spacious Apartment in City Center,Recently renovated with modern amenities
+PROP-0235,Melbourne,Melbourne Heights Townhouse,Australia,652 Park Boulevard,Townhouse with City Views,Perfect for professionals and families
+PROP-0236,Melbourne,Melbourne District Apartment,Australia,952 Market Boulevard,Premium Historic District Apartment,Recently renovated with modern amenities
+PROP-0237,Melbourne,Melbourne District Residence,Australia,211 Market Square,Central Residence in City Center,Located in a vibrant neighborhood
+PROP-0238,Melbourne,Melbourne District Apartment,Australia,920 Oak Avenue,Downtown Central Apartment,Located in a vibrant neighborhood
+PROP-0239,Melbourne,Designer Melbourne Loft,Australia,352 Market Place,Loft with Balcony,Close to public transportation
+PROP-0240,Dubai,Cozy Dubai Residence,UAE,508 High Plaza,Cozy Central Residence,Close to public transportation
+PROP-0241,Dubai,Dubai Square Condo,UAE,614 King Place,Premium Central Condo,Close to public transportation
+PROP-0242,Dubai,Dubai Square Townhouse,UAE,323 Oak Boulevard,Spacious Townhouse,Walking distance to shops and restaurants
+PROP-0243,Dubai,Premium Dubai Studio,UAE,972 Park Drive,Premium Studio in Historic District,Quiet area with easy access to city center
+PROP-0244,Dubai,Dubai District Condo,UAE,903 Elm Lane,Stylish Downtown Condo,Fully furnished and ready to move in
+PROP-0245,Dubai,Contemporary Dubai Suite,UAE,832 Market Plaza,Contemporary Suite,Near parks and recreational facilities
+PROP-0246,Cape Town,Historic Cape Town Apartment,South Africa,891 Main Place,Apartment with High Ceilings,Ideal for short or long term stays
+PROP-0247,Cape Town,Downtown Cape Town Apartment,South Africa,607 Oak Lane,Downtown Central Apartment,Recently renovated with modern amenities
+PROP-0248,Cape Town,Cape Town Heights Loft,South Africa,797 King Avenue,Waterfront Central Loft,Fully furnished and ready to move in
+PROP-0249,Cape Town,Cape Town District Residence,South Africa,819 Queen Square,Historic Residence in Downtown,Recently renovated with modern amenities
+PROP-0250,Cape Town,Stylish Cape Town Apartment,South Africa,293 Oak Road,Stylish City Center Apartment,Fully furnished and ready to move in
+PROP-0251,Buenos Aires,Buenos Aires District Flat,Argentina,80 Main Street,Urban Historic District Flat,Walking distance to shops and restaurants
+PROP-0252,Buenos Aires,Designer Buenos Aires Villa,Argentina,227 King Street,Designer Villa in City Center,Perfect for professionals and families
+PROP-0253,Buenos Aires,Modern Buenos Aires Suite,Argentina,246 Main Drive,Modern Central Suite,Fully furnished and ready to move in
+PROP-0254,Buenos Aires,Downtown Buenos Aires Condo,Argentina,55 Elm Road,Condo with Great Views,Recently renovated with modern amenities
+PROP-0255,Buenos Aires,Designer Buenos Aires Villa,Argentina,699 Market Road,Designer Villa,Recently renovated with modern amenities
+PROP-0256,Vancouver,Elegant Vancouver Penthouse,Canada,505 Main Lane,Elegant Penthouse,Recently renovated with modern amenities
+PROP-0257,Mexico City,Stylish Mexico City Townhouse,Mexico,805 King Plaza,Townhouse with High Ceilings,Recently renovated with modern amenities
+PROP-0258,Rio de Janeiro,Central Rio de Janeiro Flat,Brazil,287 King Lane,Flat with Great Views,Quiet area with easy access to city center
+PROP-0259,São Paulo,Historic São Paulo Loft,Brazil,287 Market Place,Historic Loft in City Center,Recently renovated with modern amenities
+PROP-0260,Auckland,Spacious Auckland Loft,New Zealand,146 Main Boulevard,Spacious Loft,Recently renovated with modern amenities
+PROP-0261,Istanbul,Downtown Istanbul Townhouse,Turkey,735 Elm Avenue,Townhouse with High Ceilings,Close to public transportation
+PROP-0262,Cairo,Spacious Cairo Residence,Egypt,894 Main Plaza,Residence with Balcony,Close to public transportation
+PROP-0263,Nairobi,Nairobi Square Condo,Kenya,556 Queen Square,Urban Condo in Central,Close to public transportation
+PROP-0264,Lagos,Historic Lagos Penthouse,Nigeria,551 Main Place,Historic Penthouse,Recently renovated with modern amenities
+PROP-0265,Marrakech,Marrakech Heights Suite,Morocco,330 Oak Street,Spacious Suite in City Center,Excellent connectivity to major attractions
+PROP-0266,Hong Kong,Modern Hong Kong Villa,China,462 High Lane,Villa with City Views,Ideal for short or long term stays
+PROP-0267,Shanghai,Shanghai District Penthouse,China,613 Queen Way,Charming Penthouse in Central,Excellent connectivity to major attractions
+PROP-0268,Beijing,Beijing Heights Residence,China,467 Park Square,Central Residence,Near parks and recreational facilities
+PROP-0269,Kuala Lumpur,Downtown Kuala Lumpur Loft,Malaysia,331 Main Way,Downtown Downtown Loft,Near parks and recreational facilities
+PROP-0270,Manila,Manila Park Condo,Philippines,622 Park Street,Historic Condo,Excellent connectivity to major attractions
+PROP-0271,Lisbon,Luxury Lisbon Studio,Portugal,765 Main Place,Luxury Studio,Walking distance to shops and restaurants
+PROP-0272,Stockholm,Waterfront Stockholm Condo,Sweden,122 Queen Place,Waterfront Condo,Walking distance to shops and restaurants
+PROP-0273,Copenhagen,Elegant Copenhagen Penthouse,Denmark,932 Main Way,Elegant Penthouse,Excellent connectivity to major attractions
+PROP-0274,Oslo,Downtown Oslo Villa,Norway,755 Second Lane,Downtown Central Villa,Located in a vibrant neighborhood
+PROP-0275,Helsinki,Helsinki Park Villa,Finland,191 Queen Lane,Premium Villa in City Center,Fully furnished and ready to move in
+PROP-0276,Dublin,Dublin Heights Studio,Ireland,518 King Square,Cozy Studio,Fully furnished and ready to move in
+PROP-0277,Brussels,Brussels Center Loft,Belgium,608 Second Street,Loft with Modern Kitchen,Ideal for short or long term stays
+PROP-0278,Zurich,Zurich Heights Apartment,Switzerland,208 First Plaza,Luxury Apartment,Ideal for short or long term stays
+PROP-0279,Warsaw,Warsaw Quarter Residence,Poland,415 Queen Lane,Cozy City Center Residence,Walking distance to shops and restaurants
+PROP-0280,Reykjavik,Reykjavik District Suite,Iceland,773 Queen Plaza,Urban Downtown Suite,Quiet area with easy access to city center

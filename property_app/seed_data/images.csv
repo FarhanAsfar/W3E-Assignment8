@@ -1,4 +1,852 @@
 property_external_id,file_path,is_primary,alt_text
-PROP-0003,seed_media/image1.jpeg,true,Living room
-PROP-0004,seed_media/image2.jpeg,false,Bedroom
-PROP-0005,seed_media/image3.jpeg,true,Front view
+PROP-0001,seed_media/image1.jpeg,true,Balcony
+PROP-0001,seed_media/image7.jpeg,false,Common area
+PROP-0002,seed_media/image2.jpeg,true,View from window
+PROP-0002,seed_media/image1.jpeg,false,Common area
+PROP-0003,seed_media/image3.jpeg,true,Interior
+PROP-0003,seed_media/image6.jpeg,false,Guest room
+PROP-0003,seed_media/image15.jpeg,false,Living room
+PROP-0004,seed_media/image15.jpeg,true,View from window
+PROP-0004,seed_media/image13.jpeg,false,Exterior
+PROP-0004,seed_media/image1.jpeg,false,Exterior
+PROP-0005,seed_media/image10.jpeg,true,Kitchen
+PROP-0005,seed_media/image14.jpeg,false,Entrance
+PROP-0005,seed_media/image7.jpeg,false,Street view
+PROP-0005,seed_media/image3.jpeg,false,View from window
+PROP-0006,seed_media/image7.jpeg,true,Interior
+PROP-0006,seed_media/image10.jpeg,false,View from window
+PROP-0006,seed_media/image15.jpeg,false,Kitchen
+PROP-0006,seed_media/image11.jpeg,false,Balcony
+PROP-0007,seed_media/image14.jpeg,true,Common area
+PROP-0007,seed_media/image6.jpeg,false,Bedroom
+PROP-0007,seed_media/image8.jpeg,false,Entrance
+PROP-0008,seed_media/image14.jpeg,true,Front view
+PROP-0008,seed_media/image6.jpeg,false,Balcony
+PROP-0008,seed_media/image1.jpeg,false,Exterior
+PROP-0008,seed_media/image7.jpeg,false,Balcony
+PROP-0009,seed_media/image6.jpeg,true,Entrance
+PROP-0009,seed_media/image14.jpeg,false,Street view
+PROP-0010,seed_media/image6.jpeg,true,Guest room
+PROP-0010,seed_media/image15.jpeg,false,Entrance
+PROP-0010,seed_media/image14.jpeg,false,Master bedroom
+PROP-0010,seed_media/image5.jpeg,false,Front view
+PROP-0011,seed_media/image12.jpeg,true,Kitchen
+PROP-0011,seed_media/image6.jpeg,false,Guest room
+PROP-0012,seed_media/image7.jpeg,true,Front view
+PROP-0012,seed_media/image2.jpeg,false,Kitchen
+PROP-0012,seed_media/image5.jpeg,false,Front view
+PROP-0013,seed_media/image7.jpeg,true,Interior
+PROP-0013,seed_media/image1.jpeg,false,Common area
+PROP-0013,seed_media/image11.jpeg,false,Common area
+PROP-0014,seed_media/image5.jpeg,true,Kitchen
+PROP-0014,seed_media/image11.jpeg,false,Bedroom
+PROP-0014,seed_media/image8.jpeg,false,Interior
+PROP-0015,seed_media/image2.jpeg,true,Kitchen
+PROP-0015,seed_media/image5.jpeg,false,Interior
+PROP-0015,seed_media/image15.jpeg,false,View from window
+PROP-0015,seed_media/image3.jpeg,false,Balcony
+PROP-0016,seed_media/image6.jpeg,true,Bathroom
+PROP-0016,seed_media/image15.jpeg,false,Front view
+PROP-0017,seed_media/image9.jpeg,true,Living room
+PROP-0017,seed_media/image7.jpeg,false,Master bedroom
+PROP-0017,seed_media/image10.jpeg,false,Exterior
+PROP-0018,seed_media/image8.jpeg,true,Master bedroom
+PROP-0018,seed_media/image1.jpeg,false,View from window
+PROP-0018,seed_media/image5.jpeg,false,Bathroom
+PROP-0018,seed_media/image6.jpeg,false,Guest room
+PROP-0019,seed_media/image1.jpeg,true,Bathroom
+PROP-0019,seed_media/image13.jpeg,false,Dining area
+PROP-0020,seed_media/image11.jpeg,true,Guest room
+PROP-0020,seed_media/image1.jpeg,false,Street view
+PROP-0020,seed_media/image5.jpeg,false,Interior
+PROP-0021,seed_media/image2.jpeg,true,Bedroom
+PROP-0021,seed_media/image5.jpeg,false,Bathroom
+PROP-0021,seed_media/image12.jpeg,false,Street view
+PROP-0022,seed_media/image1.jpeg,true,Dining area
+PROP-0022,seed_media/image2.jpeg,false,Guest room
+PROP-0023,seed_media/image15.jpeg,true,View from window
+PROP-0023,seed_media/image4.jpeg,false,Street view
+PROP-0024,seed_media/image8.jpeg,true,Bedroom
+PROP-0024,seed_media/image11.jpeg,false,Guest room
+PROP-0025,seed_media/image13.jpeg,true,Balcony
+PROP-0025,seed_media/image5.jpeg,false,Exterior
+PROP-0026,seed_media/image3.jpeg,true,Guest room
+PROP-0026,seed_media/image6.jpeg,false,Front view
+PROP-0026,seed_media/image9.jpeg,false,Bathroom
+PROP-0026,seed_media/image2.jpeg,false,Kitchen
+PROP-0027,seed_media/image1.jpeg,true,Balcony
+PROP-0027,seed_media/image14.jpeg,false,Bathroom
+PROP-0028,seed_media/image15.jpeg,true,Street view
+PROP-0028,seed_media/image2.jpeg,false,Bedroom
+PROP-0028,seed_media/image10.jpeg,false,Bedroom
+PROP-0029,seed_media/image5.jpeg,true,Master bedroom
+PROP-0029,seed_media/image9.jpeg,false,Guest room
+PROP-0030,seed_media/image10.jpeg,true,Bedroom
+PROP-0030,seed_media/image13.jpeg,false,Common area
+PROP-0030,seed_media/image8.jpeg,false,Balcony
+PROP-0031,seed_media/image1.jpeg,true,Entrance
+PROP-0031,seed_media/image13.jpeg,false,Entrance
+PROP-0031,seed_media/image3.jpeg,false,Interior
+PROP-0031,seed_media/image10.jpeg,false,Living room
+PROP-0032,seed_media/image10.jpeg,true,Street view
+PROP-0032,seed_media/image4.jpeg,false,Bedroom
+PROP-0032,seed_media/image3.jpeg,false,Common area
+PROP-0033,seed_media/image3.jpeg,true,View from window
+PROP-0033,seed_media/image1.jpeg,false,Bathroom
+PROP-0034,seed_media/image14.jpeg,true,Living room
+PROP-0034,seed_media/image6.jpeg,false,Balcony
+PROP-0034,seed_media/image4.jpeg,false,Front view
+PROP-0035,seed_media/image3.jpeg,true,View from window
+PROP-0035,seed_media/image5.jpeg,false,Guest room
+PROP-0035,seed_media/image8.jpeg,false,Living room
+PROP-0035,seed_media/image13.jpeg,false,Bedroom
+PROP-0036,seed_media/image5.jpeg,true,Street view
+PROP-0036,seed_media/image2.jpeg,false,Exterior
+PROP-0036,seed_media/image3.jpeg,false,Entrance
+PROP-0037,seed_media/image6.jpeg,true,Balcony
+PROP-0037,seed_media/image11.jpeg,false,Bathroom
+PROP-0038,seed_media/image2.jpeg,true,Bathroom
+PROP-0038,seed_media/image10.jpeg,false,Balcony
+PROP-0039,seed_media/image7.jpeg,true,Kitchen
+PROP-0039,seed_media/image15.jpeg,false,Entrance
+PROP-0039,seed_media/image10.jpeg,false,View from window
+PROP-0039,seed_media/image3.jpeg,false,Bathroom
+PROP-0040,seed_media/image5.jpeg,true,Street view
+PROP-0040,seed_media/image4.jpeg,false,Street view
+PROP-0040,seed_media/image8.jpeg,false,Bathroom
+PROP-0040,seed_media/image2.jpeg,false,Bathroom
+PROP-0041,seed_media/image8.jpeg,true,Living room
+PROP-0041,seed_media/image15.jpeg,false,Kitchen
+PROP-0041,seed_media/image4.jpeg,false,Balcony
+PROP-0041,seed_media/image12.jpeg,false,Front view
+PROP-0042,seed_media/image8.jpeg,true,Common area
+PROP-0042,seed_media/image13.jpeg,false,Common area
+PROP-0042,seed_media/image9.jpeg,false,Front view
+PROP-0043,seed_media/image9.jpeg,true,Living room
+PROP-0043,seed_media/image6.jpeg,false,Kitchen
+PROP-0044,seed_media/image9.jpeg,true,Entrance
+PROP-0044,seed_media/image1.jpeg,false,Front view
+PROP-0044,seed_media/image5.jpeg,false,Balcony
+PROP-0044,seed_media/image13.jpeg,false,Street view
+PROP-0045,seed_media/image9.jpeg,true,Interior
+PROP-0045,seed_media/image12.jpeg,false,Living room
+PROP-0046,seed_media/image10.jpeg,true,Guest room
+PROP-0046,seed_media/image7.jpeg,false,View from window
+PROP-0046,seed_media/image1.jpeg,false,Bedroom
+PROP-0047,seed_media/image15.jpeg,true,Dining area
+PROP-0047,seed_media/image6.jpeg,false,Living room
+PROP-0047,seed_media/image8.jpeg,false,Entrance
+PROP-0048,seed_media/image9.jpeg,true,View from window
+PROP-0048,seed_media/image8.jpeg,false,Kitchen
+PROP-0048,seed_media/image1.jpeg,false,Common area
+PROP-0048,seed_media/image12.jpeg,false,Exterior
+PROP-0049,seed_media/image6.jpeg,true,Bedroom
+PROP-0049,seed_media/image13.jpeg,false,Kitchen
+PROP-0050,seed_media/image10.jpeg,true,Street view
+PROP-0050,seed_media/image13.jpeg,false,Front view
+PROP-0050,seed_media/image3.jpeg,false,Bedroom
+PROP-0050,seed_media/image4.jpeg,false,Balcony
+PROP-0051,seed_media/image1.jpeg,true,Common area
+PROP-0051,seed_media/image12.jpeg,false,Bathroom
+PROP-0051,seed_media/image5.jpeg,false,Bedroom
+PROP-0051,seed_media/image8.jpeg,false,Bathroom
+PROP-0052,seed_media/image7.jpeg,true,Living room
+PROP-0052,seed_media/image2.jpeg,false,Living room
+PROP-0052,seed_media/image13.jpeg,false,Common area
+PROP-0052,seed_media/image3.jpeg,false,Guest room
+PROP-0053,seed_media/image13.jpeg,true,Front view
+PROP-0053,seed_media/image15.jpeg,false,Master bedroom
+PROP-0053,seed_media/image10.jpeg,false,Bathroom
+PROP-0054,seed_media/image1.jpeg,true,Kitchen
+PROP-0054,seed_media/image11.jpeg,false,Common area
+PROP-0054,seed_media/image8.jpeg,false,Bathroom
+PROP-0054,seed_media/image13.jpeg,false,Guest room
+PROP-0055,seed_media/image11.jpeg,true,Balcony
+PROP-0055,seed_media/image9.jpeg,false,Master bedroom
+PROP-0055,seed_media/image6.jpeg,false,Interior
+PROP-0055,seed_media/image7.jpeg,false,Bathroom
+PROP-0056,seed_media/image11.jpeg,true,Street view
+PROP-0056,seed_media/image6.jpeg,false,Exterior
+PROP-0057,seed_media/image6.jpeg,true,Balcony
+PROP-0057,seed_media/image3.jpeg,false,Street view
+PROP-0057,seed_media/image8.jpeg,false,Interior
+PROP-0057,seed_media/image14.jpeg,false,Front view
+PROP-0058,seed_media/image2.jpeg,true,Dining area
+PROP-0058,seed_media/image4.jpeg,false,Living room
+PROP-0059,seed_media/image6.jpeg,true,Common area
+PROP-0059,seed_media/image2.jpeg,false,Master bedroom
+PROP-0059,seed_media/image15.jpeg,false,Dining area
+PROP-0059,seed_media/image7.jpeg,false,Kitchen
+PROP-0060,seed_media/image7.jpeg,true,Kitchen
+PROP-0060,seed_media/image10.jpeg,false,Living room
+PROP-0060,seed_media/image1.jpeg,false,Balcony
+PROP-0061,seed_media/image7.jpeg,true,View from window
+PROP-0061,seed_media/image4.jpeg,false,Bedroom
+PROP-0062,seed_media/image7.jpeg,true,Street view
+PROP-0062,seed_media/image9.jpeg,false,Interior
+PROP-0062,seed_media/image1.jpeg,false,Guest room
+PROP-0062,seed_media/image6.jpeg,false,Living room
+PROP-0063,seed_media/image8.jpeg,true,Guest room
+PROP-0063,seed_media/image9.jpeg,false,Master bedroom
+PROP-0063,seed_media/image14.jpeg,false,Common area
+PROP-0064,seed_media/image12.jpeg,true,Front view
+PROP-0064,seed_media/image10.jpeg,false,Entrance
+PROP-0065,seed_media/image14.jpeg,true,Bedroom
+PROP-0065,seed_media/image9.jpeg,false,Kitchen
+PROP-0066,seed_media/image14.jpeg,true,Master bedroom
+PROP-0066,seed_media/image8.jpeg,false,Entrance
+PROP-0066,seed_media/image2.jpeg,false,Front view
+PROP-0067,seed_media/image11.jpeg,true,Guest room
+PROP-0067,seed_media/image1.jpeg,false,View from window
+PROP-0067,seed_media/image5.jpeg,false,Master bedroom
+PROP-0068,seed_media/image14.jpeg,true,Kitchen
+PROP-0068,seed_media/image10.jpeg,false,Interior
+PROP-0068,seed_media/image4.jpeg,false,Guest room
+PROP-0069,seed_media/image6.jpeg,true,Bathroom
+PROP-0069,seed_media/image5.jpeg,false,Street view
+PROP-0069,seed_media/image4.jpeg,false,Kitchen
+PROP-0069,seed_media/image3.jpeg,false,Street view
+PROP-0070,seed_media/image13.jpeg,true,Kitchen
+PROP-0070,seed_media/image10.jpeg,false,Street view
+PROP-0070,seed_media/image7.jpeg,false,Guest room
+PROP-0071,seed_media/image13.jpeg,true,Living room
+PROP-0071,seed_media/image15.jpeg,false,Street view
+PROP-0071,seed_media/image5.jpeg,false,View from window
+PROP-0071,seed_media/image14.jpeg,false,Bedroom
+PROP-0072,seed_media/image10.jpeg,true,Master bedroom
+PROP-0072,seed_media/image6.jpeg,false,View from window
+PROP-0072,seed_media/image12.jpeg,false,Living room
+PROP-0073,seed_media/image3.jpeg,true,Exterior
+PROP-0073,seed_media/image5.jpeg,false,Interior
+PROP-0073,seed_media/image1.jpeg,false,Front view
+PROP-0073,seed_media/image2.jpeg,false,View from window
+PROP-0074,seed_media/image11.jpeg,true,Interior
+PROP-0074,seed_media/image3.jpeg,false,View from window
+PROP-0075,seed_media/image13.jpeg,true,Entrance
+PROP-0075,seed_media/image8.jpeg,false,Entrance
+PROP-0075,seed_media/image2.jpeg,false,Front view
+PROP-0075,seed_media/image14.jpeg,false,Living room
+PROP-0076,seed_media/image15.jpeg,true,Dining area
+PROP-0076,seed_media/image6.jpeg,false,Bathroom
+PROP-0076,seed_media/image1.jpeg,false,Dining area
+PROP-0076,seed_media/image13.jpeg,false,Entrance
+PROP-0077,seed_media/image9.jpeg,true,View from window
+PROP-0077,seed_media/image6.jpeg,false,Balcony
+PROP-0077,seed_media/image1.jpeg,false,Master bedroom
+PROP-0077,seed_media/image8.jpeg,false,Front view
+PROP-0078,seed_media/image5.jpeg,true,Common area
+PROP-0078,seed_media/image3.jpeg,false,Master bedroom
+PROP-0078,seed_media/image11.jpeg,false,Bathroom
+PROP-0078,seed_media/image13.jpeg,false,Master bedroom
+PROP-0079,seed_media/image4.jpeg,true,Dining area
+PROP-0079,seed_media/image7.jpeg,false,Common area
+PROP-0079,seed_media/image15.jpeg,false,Entrance
+PROP-0079,seed_media/image1.jpeg,false,Living room
+PROP-0080,seed_media/image3.jpeg,true,Kitchen
+PROP-0080,seed_media/image12.jpeg,false,Entrance
+PROP-0080,seed_media/image5.jpeg,false,View from window
+PROP-0080,seed_media/image6.jpeg,false,Guest room
+PROP-0081,seed_media/image14.jpeg,true,Living room
+PROP-0081,seed_media/image11.jpeg,false,Living room
+PROP-0081,seed_media/image1.jpeg,false,Entrance
+PROP-0082,seed_media/image5.jpeg,true,Front view
+PROP-0082,seed_media/image10.jpeg,false,Street view
+PROP-0082,seed_media/image2.jpeg,false,Bathroom
+PROP-0082,seed_media/image1.jpeg,false,Common area
+PROP-0083,seed_media/image6.jpeg,true,View from window
+PROP-0083,seed_media/image11.jpeg,false,Bedroom
+PROP-0083,seed_media/image14.jpeg,false,View from window
+PROP-0084,seed_media/image3.jpeg,true,Entrance
+PROP-0084,seed_media/image5.jpeg,false,Entrance
+PROP-0084,seed_media/image13.jpeg,false,Common area
+PROP-0084,seed_media/image8.jpeg,false,Interior
+PROP-0085,seed_media/image6.jpeg,true,Living room
+PROP-0085,seed_media/image2.jpeg,false,Balcony
+PROP-0085,seed_media/image14.jpeg,false,Guest room
+PROP-0085,seed_media/image8.jpeg,false,Guest room
+PROP-0086,seed_media/image5.jpeg,true,Guest room
+PROP-0086,seed_media/image7.jpeg,false,View from window
+PROP-0086,seed_media/image6.jpeg,false,Entrance
+PROP-0087,seed_media/image12.jpeg,true,Balcony
+PROP-0087,seed_media/image9.jpeg,false,Interior
+PROP-0088,seed_media/image8.jpeg,true,Bedroom
+PROP-0088,seed_media/image12.jpeg,false,Street view
+PROP-0088,seed_media/image10.jpeg,false,Common area
+PROP-0088,seed_media/image14.jpeg,false,Common area
+PROP-0089,seed_media/image10.jpeg,true,Front view
+PROP-0089,seed_media/image4.jpeg,false,Front view
+PROP-0090,seed_media/image12.jpeg,true,Master bedroom
+PROP-0090,seed_media/image8.jpeg,false,Interior
+PROP-0090,seed_media/image7.jpeg,false,Front view
+PROP-0091,seed_media/image8.jpeg,true,Street view
+PROP-0091,seed_media/image7.jpeg,false,Dining area
+PROP-0091,seed_media/image11.jpeg,false,Balcony
+PROP-0092,seed_media/image2.jpeg,true,Bathroom
+PROP-0092,seed_media/image4.jpeg,false,Entrance
+PROP-0092,seed_media/image11.jpeg,false,Street view
+PROP-0092,seed_media/image12.jpeg,false,Common area
+PROP-0093,seed_media/image11.jpeg,true,Guest room
+PROP-0093,seed_media/image15.jpeg,false,Interior
+PROP-0094,seed_media/image10.jpeg,true,Dining area
+PROP-0094,seed_media/image1.jpeg,false,Entrance
+PROP-0094,seed_media/image8.jpeg,false,Entrance
+PROP-0095,seed_media/image5.jpeg,true,Entrance
+PROP-0095,seed_media/image9.jpeg,false,Kitchen
+PROP-0095,seed_media/image14.jpeg,false,Bathroom
+PROP-0096,seed_media/image9.jpeg,true,Living room
+PROP-0096,seed_media/image14.jpeg,false,Front view
+PROP-0096,seed_media/image4.jpeg,false,Interior
+PROP-0096,seed_media/image7.jpeg,false,View from window
+PROP-0097,seed_media/image1.jpeg,true,Exterior
+PROP-0097,seed_media/image5.jpeg,false,Living room
+PROP-0097,seed_media/image10.jpeg,false,Interior
+PROP-0097,seed_media/image2.jpeg,false,Kitchen
+PROP-0098,seed_media/image2.jpeg,true,Common area
+PROP-0098,seed_media/image8.jpeg,false,Guest room
+PROP-0098,seed_media/image11.jpeg,false,Guest room
+PROP-0099,seed_media/image6.jpeg,true,Exterior
+PROP-0099,seed_media/image10.jpeg,false,Balcony
+PROP-0100,seed_media/image15.jpeg,true,Interior
+PROP-0100,seed_media/image3.jpeg,false,Bedroom
+PROP-0100,seed_media/image11.jpeg,false,Living room
+PROP-0100,seed_media/image13.jpeg,false,Street view
+PROP-0101,seed_media/image8.jpeg,true,Entrance
+PROP-0101,seed_media/image6.jpeg,false,View from window
+PROP-0102,seed_media/image1.jpeg,true,Kitchen
+PROP-0102,seed_media/image4.jpeg,false,Living room
+PROP-0102,seed_media/image7.jpeg,false,Street view
+PROP-0103,seed_media/image9.jpeg,true,Front view
+PROP-0103,seed_media/image10.jpeg,false,Guest room
+PROP-0103,seed_media/image1.jpeg,false,Bathroom
+PROP-0103,seed_media/image4.jpeg,false,Entrance
+PROP-0104,seed_media/image5.jpeg,true,Living room
+PROP-0104,seed_media/image10.jpeg,false,Exterior
+PROP-0105,seed_media/image9.jpeg,true,Front view
+PROP-0105,seed_media/image6.jpeg,false,Dining area
+PROP-0105,seed_media/image14.jpeg,false,Bedroom
+PROP-0105,seed_media/image10.jpeg,false,Dining area
+PROP-0106,seed_media/image1.jpeg,true,Kitchen
+PROP-0106,seed_media/image2.jpeg,false,Exterior
+PROP-0107,seed_media/image6.jpeg,true,Common area
+PROP-0107,seed_media/image14.jpeg,false,Balcony
+PROP-0107,seed_media/image9.jpeg,false,Living room
+PROP-0107,seed_media/image7.jpeg,false,Kitchen
+PROP-0108,seed_media/image11.jpeg,true,Dining area
+PROP-0108,seed_media/image13.jpeg,false,Guest room
+PROP-0108,seed_media/image3.jpeg,false,Street view
+PROP-0108,seed_media/image4.jpeg,false,Living room
+PROP-0109,seed_media/image4.jpeg,true,Exterior
+PROP-0109,seed_media/image3.jpeg,false,Common area
+PROP-0110,seed_media/image10.jpeg,true,Entrance
+PROP-0110,seed_media/image14.jpeg,false,Street view
+PROP-0111,seed_media/image13.jpeg,true,Bedroom
+PROP-0111,seed_media/image7.jpeg,false,Street view
+PROP-0111,seed_media/image3.jpeg,false,Street view
+PROP-0111,seed_media/image9.jpeg,false,Kitchen
+PROP-0112,seed_media/image4.jpeg,true,Bedroom
+PROP-0112,seed_media/image14.jpeg,false,View from window
+PROP-0112,seed_media/image12.jpeg,false,View from window
+PROP-0113,seed_media/image14.jpeg,true,Front view
+PROP-0113,seed_media/image11.jpeg,false,Exterior
+PROP-0113,seed_media/image4.jpeg,false,Bathroom
+PROP-0113,seed_media/image12.jpeg,false,Exterior
+PROP-0114,seed_media/image15.jpeg,true,Common area
+PROP-0114,seed_media/image12.jpeg,false,Master bedroom
+PROP-0115,seed_media/image15.jpeg,true,Common area
+PROP-0115,seed_media/image9.jpeg,false,Guest room
+PROP-0116,seed_media/image7.jpeg,true,Bedroom
+PROP-0116,seed_media/image15.jpeg,false,Dining area
+PROP-0116,seed_media/image11.jpeg,false,Front view
+PROP-0117,seed_media/image10.jpeg,true,Common area
+PROP-0117,seed_media/image8.jpeg,false,Exterior
+PROP-0117,seed_media/image1.jpeg,false,Kitchen
+PROP-0117,seed_media/image14.jpeg,false,Front view
+PROP-0118,seed_media/image11.jpeg,true,Kitchen
+PROP-0118,seed_media/image4.jpeg,false,Bedroom
+PROP-0118,seed_media/image1.jpeg,false,Entrance
+PROP-0119,seed_media/image11.jpeg,true,Common area
+PROP-0119,seed_media/image13.jpeg,false,Street view
+PROP-0120,seed_media/image13.jpeg,true,Master bedroom
+PROP-0120,seed_media/image2.jpeg,false,Guest room
+PROP-0121,seed_media/image3.jpeg,true,Common area
+PROP-0121,seed_media/image8.jpeg,false,Dining area
+PROP-0122,seed_media/image7.jpeg,true,Kitchen
+PROP-0122,seed_media/image4.jpeg,false,Bathroom
+PROP-0122,seed_media/image14.jpeg,false,Guest room
+PROP-0123,seed_media/image12.jpeg,true,Dining area
+PROP-0123,seed_media/image8.jpeg,false,Street view
+PROP-0123,seed_media/image11.jpeg,false,View from window
+PROP-0124,seed_media/image13.jpeg,true,Entrance
+PROP-0124,seed_media/image11.jpeg,false,Living room
+PROP-0124,seed_media/image15.jpeg,false,Balcony
+PROP-0124,seed_media/image3.jpeg,false,Front view
+PROP-0125,seed_media/image6.jpeg,true,View from window
+PROP-0125,seed_media/image14.jpeg,false,Living room
+PROP-0126,seed_media/image1.jpeg,true,Exterior
+PROP-0126,seed_media/image15.jpeg,false,Entrance
+PROP-0126,seed_media/image4.jpeg,false,Interior
+PROP-0126,seed_media/image9.jpeg,false,Front view
+PROP-0127,seed_media/image2.jpeg,true,Dining area
+PROP-0127,seed_media/image7.jpeg,false,Common area
+PROP-0128,seed_media/image7.jpeg,true,Common area
+PROP-0128,seed_media/image4.jpeg,false,Exterior
+PROP-0128,seed_media/image8.jpeg,false,Exterior
+PROP-0128,seed_media/image9.jpeg,false,Street view
+PROP-0129,seed_media/image15.jpeg,true,Master bedroom
+PROP-0129,seed_media/image6.jpeg,false,Interior
+PROP-0130,seed_media/image7.jpeg,true,Bathroom
+PROP-0130,seed_media/image4.jpeg,false,Living room
+PROP-0130,seed_media/image5.jpeg,false,Master bedroom
+PROP-0130,seed_media/image10.jpeg,false,Entrance
+PROP-0131,seed_media/image1.jpeg,true,Street view
+PROP-0131,seed_media/image8.jpeg,false,Balcony
+PROP-0131,seed_media/image9.jpeg,false,Kitchen
+PROP-0131,seed_media/image2.jpeg,false,Balcony
+PROP-0132,seed_media/image4.jpeg,true,View from window
+PROP-0132,seed_media/image9.jpeg,false,Front view
+PROP-0133,seed_media/image9.jpeg,true,Balcony
+PROP-0133,seed_media/image13.jpeg,false,Guest room
+PROP-0133,seed_media/image12.jpeg,false,Front view
+PROP-0134,seed_media/image12.jpeg,true,Balcony
+PROP-0134,seed_media/image9.jpeg,false,Interior
+PROP-0134,seed_media/image2.jpeg,false,Entrance
+PROP-0135,seed_media/image13.jpeg,true,Bedroom
+PROP-0135,seed_media/image2.jpeg,false,Balcony
+PROP-0136,seed_media/image2.jpeg,true,Balcony
+PROP-0136,seed_media/image14.jpeg,false,Bathroom
+PROP-0136,seed_media/image11.jpeg,false,Street view
+PROP-0137,seed_media/image15.jpeg,true,Balcony
+PROP-0137,seed_media/image9.jpeg,false,Exterior
+PROP-0137,seed_media/image13.jpeg,false,Bedroom
+PROP-0137,seed_media/image14.jpeg,false,Kitchen
+PROP-0138,seed_media/image4.jpeg,true,Bathroom
+PROP-0138,seed_media/image3.jpeg,false,Guest room
+PROP-0139,seed_media/image7.jpeg,true,Kitchen
+PROP-0139,seed_media/image15.jpeg,false,Balcony
+PROP-0140,seed_media/image4.jpeg,true,Living room
+PROP-0140,seed_media/image1.jpeg,false,Bathroom
+PROP-0141,seed_media/image5.jpeg,true,Front view
+PROP-0141,seed_media/image4.jpeg,false,Street view
+PROP-0141,seed_media/image10.jpeg,false,Living room
+PROP-0142,seed_media/image9.jpeg,true,Living room
+PROP-0142,seed_media/image1.jpeg,false,Guest room
+PROP-0142,seed_media/image12.jpeg,false,Street view
+PROP-0143,seed_media/image1.jpeg,true,Guest room
+PROP-0143,seed_media/image8.jpeg,false,Interior
+PROP-0144,seed_media/image13.jpeg,true,Exterior
+PROP-0144,seed_media/image15.jpeg,false,Street view
+PROP-0144,seed_media/image3.jpeg,false,Front view
+PROP-0144,seed_media/image14.jpeg,false,Entrance
+PROP-0145,seed_media/image5.jpeg,true,Exterior
+PROP-0145,seed_media/image14.jpeg,false,Front view
+PROP-0145,seed_media/image11.jpeg,false,Bedroom
+PROP-0146,seed_media/image13.jpeg,true,Front view
+PROP-0146,seed_media/image15.jpeg,false,Bedroom
+PROP-0147,seed_media/image7.jpeg,true,Dining area
+PROP-0147,seed_media/image3.jpeg,false,Kitchen
+PROP-0147,seed_media/image15.jpeg,false,Master bedroom
+PROP-0147,seed_media/image6.jpeg,false,Entrance
+PROP-0148,seed_media/image1.jpeg,true,Balcony
+PROP-0148,seed_media/image2.jpeg,false,Street view
+PROP-0148,seed_media/image15.jpeg,false,Bedroom
+PROP-0148,seed_media/image9.jpeg,false,Bedroom
+PROP-0149,seed_media/image14.jpeg,true,View from window
+PROP-0149,seed_media/image5.jpeg,false,Street view
+PROP-0149,seed_media/image3.jpeg,false,Common area
+PROP-0149,seed_media/image12.jpeg,false,Guest room
+PROP-0150,seed_media/image7.jpeg,true,Dining area
+PROP-0150,seed_media/image8.jpeg,false,Bedroom
+PROP-0151,seed_media/image15.jpeg,true,Bedroom
+PROP-0151,seed_media/image13.jpeg,false,Street view
+PROP-0152,seed_media/image14.jpeg,true,Entrance
+PROP-0152,seed_media/image3.jpeg,false,Interior
+PROP-0152,seed_media/image1.jpeg,false,Street view
+PROP-0153,seed_media/image7.jpeg,true,Front view
+PROP-0153,seed_media/image8.jpeg,false,Guest room
+PROP-0154,seed_media/image14.jpeg,true,Interior
+PROP-0154,seed_media/image1.jpeg,false,Dining area
+PROP-0154,seed_media/image10.jpeg,false,Balcony
+PROP-0154,seed_media/image3.jpeg,false,Interior
+PROP-0155,seed_media/image8.jpeg,true,Bedroom
+PROP-0155,seed_media/image11.jpeg,false,Bathroom
+PROP-0156,seed_media/image6.jpeg,true,Street view
+PROP-0156,seed_media/image4.jpeg,false,Kitchen
+PROP-0156,seed_media/image8.jpeg,false,Exterior
+PROP-0157,seed_media/image1.jpeg,true,Street view
+PROP-0157,seed_media/image13.jpeg,false,Master bedroom
+PROP-0157,seed_media/image5.jpeg,false,Front view
+PROP-0157,seed_media/image6.jpeg,false,Entrance
+PROP-0158,seed_media/image2.jpeg,true,Dining area
+PROP-0158,seed_media/image15.jpeg,false,Street view
+PROP-0158,seed_media/image14.jpeg,false,Guest room
+PROP-0159,seed_media/image10.jpeg,true,Common area
+PROP-0159,seed_media/image3.jpeg,false,Exterior
+PROP-0159,seed_media/image15.jpeg,false,Bedroom
+PROP-0160,seed_media/image6.jpeg,true,Entrance
+PROP-0160,seed_media/image5.jpeg,false,Kitchen
+PROP-0160,seed_media/image13.jpeg,false,Exterior
+PROP-0161,seed_media/image2.jpeg,true,Bedroom
+PROP-0161,seed_media/image1.jpeg,false,Interior
+PROP-0162,seed_media/image4.jpeg,true,Exterior
+PROP-0162,seed_media/image13.jpeg,false,Kitchen
+PROP-0162,seed_media/image12.jpeg,false,Kitchen
+PROP-0163,seed_media/image9.jpeg,true,Guest room
+PROP-0163,seed_media/image3.jpeg,false,Bathroom
+PROP-0163,seed_media/image2.jpeg,false,Kitchen
+PROP-0163,seed_media/image12.jpeg,false,Kitchen
+PROP-0164,seed_media/image15.jpeg,true,Interior
+PROP-0164,seed_media/image1.jpeg,false,View from window
+PROP-0164,seed_media/image9.jpeg,false,Kitchen
+PROP-0164,seed_media/image10.jpeg,false,View from window
+PROP-0165,seed_media/image6.jpeg,true,Bedroom
+PROP-0165,seed_media/image13.jpeg,false,Street view
+PROP-0165,seed_media/image14.jpeg,false,Front view
+PROP-0165,seed_media/image12.jpeg,false,Living room
+PROP-0166,seed_media/image10.jpeg,true,Living room
+PROP-0166,seed_media/image13.jpeg,false,Street view
+PROP-0167,seed_media/image11.jpeg,true,Entrance
+PROP-0167,seed_media/image12.jpeg,false,Interior
+PROP-0167,seed_media/image13.jpeg,false,Balcony
+PROP-0168,seed_media/image13.jpeg,true,Street view
+PROP-0168,seed_media/image4.jpeg,false,Interior
+PROP-0168,seed_media/image3.jpeg,false,Street view
+PROP-0169,seed_media/image4.jpeg,true,Street view
+PROP-0169,seed_media/image14.jpeg,false,Balcony
+PROP-0169,seed_media/image2.jpeg,false,Street view
+PROP-0170,seed_media/image15.jpeg,true,Dining area
+PROP-0170,seed_media/image6.jpeg,false,Entrance
+PROP-0170,seed_media/image9.jpeg,false,Interior
+PROP-0171,seed_media/image9.jpeg,true,Entrance
+PROP-0171,seed_media/image4.jpeg,false,Living room
+PROP-0172,seed_media/image4.jpeg,true,Front view
+PROP-0172,seed_media/image5.jpeg,false,Street view
+PROP-0172,seed_media/image11.jpeg,false,Bathroom
+PROP-0173,seed_media/image15.jpeg,true,Master bedroom
+PROP-0173,seed_media/image14.jpeg,false,View from window
+PROP-0173,seed_media/image10.jpeg,false,Exterior
+PROP-0174,seed_media/image8.jpeg,true,Street view
+PROP-0174,seed_media/image1.jpeg,false,Interior
+PROP-0174,seed_media/image11.jpeg,false,Bedroom
+PROP-0175,seed_media/image10.jpeg,true,Front view
+PROP-0175,seed_media/image3.jpeg,false,Kitchen
+PROP-0175,seed_media/image9.jpeg,false,Living room
+PROP-0175,seed_media/image5.jpeg,false,View from window
+PROP-0176,seed_media/image2.jpeg,true,Entrance
+PROP-0176,seed_media/image13.jpeg,false,Entrance
+PROP-0176,seed_media/image10.jpeg,false,Entrance
+PROP-0176,seed_media/image1.jpeg,false,Entrance
+PROP-0177,seed_media/image5.jpeg,true,Living room
+PROP-0177,seed_media/image8.jpeg,false,Bathroom
+PROP-0178,seed_media/image13.jpeg,true,Bathroom
+PROP-0178,seed_media/image10.jpeg,false,Living room
+PROP-0179,seed_media/image6.jpeg,true,Common area
+PROP-0179,seed_media/image14.jpeg,false,Entrance
+PROP-0179,seed_media/image10.jpeg,false,Master bedroom
+PROP-0180,seed_media/image15.jpeg,true,Master bedroom
+PROP-0180,seed_media/image2.jpeg,false,Master bedroom
+PROP-0180,seed_media/image1.jpeg,false,Guest room
+PROP-0180,seed_media/image3.jpeg,false,View from window
+PROP-0181,seed_media/image10.jpeg,true,Balcony
+PROP-0181,seed_media/image12.jpeg,false,Bedroom
+PROP-0181,seed_media/image6.jpeg,false,Common area
+PROP-0182,seed_media/image4.jpeg,true,Street view
+PROP-0182,seed_media/image1.jpeg,false,Bathroom
+PROP-0182,seed_media/image13.jpeg,false,View from window
+PROP-0183,seed_media/image15.jpeg,true,Front view
+PROP-0183,seed_media/image3.jpeg,false,Front view
+PROP-0183,seed_media/image10.jpeg,false,Balcony
+PROP-0183,seed_media/image4.jpeg,false,Interior
+PROP-0184,seed_media/image9.jpeg,true,Interior
+PROP-0184,seed_media/image11.jpeg,false,Guest room
+PROP-0184,seed_media/image2.jpeg,false,Bathroom
+PROP-0184,seed_media/image7.jpeg,false,Interior
+PROP-0185,seed_media/image6.jpeg,true,Front view
+PROP-0185,seed_media/image15.jpeg,false,Common area
+PROP-0186,seed_media/image5.jpeg,true,Living room
+PROP-0186,seed_media/image6.jpeg,false,Guest room
+PROP-0186,seed_media/image12.jpeg,false,View from window
+PROP-0187,seed_media/image15.jpeg,true,Guest room
+PROP-0187,seed_media/image3.jpeg,false,View from window
+PROP-0187,seed_media/image11.jpeg,false,Bedroom
+PROP-0187,seed_media/image13.jpeg,false,Dining area
+PROP-0188,seed_media/image3.jpeg,true,Front view
+PROP-0188,seed_media/image6.jpeg,false,Exterior
+PROP-0188,seed_media/image2.jpeg,false,Exterior
+PROP-0188,seed_media/image8.jpeg,false,Entrance
+PROP-0189,seed_media/image5.jpeg,true,Street view
+PROP-0189,seed_media/image11.jpeg,false,Master bedroom
+PROP-0189,seed_media/image7.jpeg,false,Exterior
+PROP-0190,seed_media/image2.jpeg,true,Exterior
+PROP-0190,seed_media/image4.jpeg,false,Living room
+PROP-0190,seed_media/image13.jpeg,false,Bathroom
+PROP-0191,seed_media/image11.jpeg,true,Common area
+PROP-0191,seed_media/image1.jpeg,false,Bathroom
+PROP-0192,seed_media/image4.jpeg,true,Master bedroom
+PROP-0192,seed_media/image1.jpeg,false,Bedroom
+PROP-0193,seed_media/image10.jpeg,true,Bedroom
+PROP-0193,seed_media/image11.jpeg,false,Living room
+PROP-0193,seed_media/image6.jpeg,false,Exterior
+PROP-0193,seed_media/image5.jpeg,false,Street view
+PROP-0194,seed_media/image3.jpeg,true,Bathroom
+PROP-0194,seed_media/image14.jpeg,false,View from window
+PROP-0194,seed_media/image12.jpeg,false,Dining area
+PROP-0194,seed_media/image1.jpeg,false,Guest room
+PROP-0195,seed_media/image3.jpeg,true,Living room
+PROP-0195,seed_media/image1.jpeg,false,Front view
+PROP-0195,seed_media/image2.jpeg,false,Balcony
+PROP-0195,seed_media/image6.jpeg,false,Bathroom
+PROP-0196,seed_media/image10.jpeg,true,Bathroom
+PROP-0196,seed_media/image9.jpeg,false,Interior
+PROP-0196,seed_media/image6.jpeg,false,Balcony
+PROP-0196,seed_media/image5.jpeg,false,Bedroom
+PROP-0197,seed_media/image2.jpeg,true,Exterior
+PROP-0197,seed_media/image9.jpeg,false,Bedroom
+PROP-0197,seed_media/image7.jpeg,false,Exterior
+PROP-0198,seed_media/image10.jpeg,true,Bedroom
+PROP-0198,seed_media/image13.jpeg,false,View from window
+PROP-0198,seed_media/image9.jpeg,false,Street view
+PROP-0198,seed_media/image6.jpeg,false,Master bedroom
+PROP-0199,seed_media/image5.jpeg,true,Dining area
+PROP-0199,seed_media/image2.jpeg,false,Entrance
+PROP-0199,seed_media/image4.jpeg,false,Bedroom
+PROP-0199,seed_media/image10.jpeg,false,Street view
+PROP-0200,seed_media/image15.jpeg,true,Kitchen
+PROP-0200,seed_media/image11.jpeg,false,Bedroom
+PROP-0200,seed_media/image10.jpeg,false,Balcony
+PROP-0200,seed_media/image14.jpeg,false,Street view
+PROP-0201,seed_media/image8.jpeg,true,View from window
+PROP-0201,seed_media/image13.jpeg,false,Guest room
+PROP-0202,seed_media/image10.jpeg,true,Bedroom
+PROP-0202,seed_media/image8.jpeg,false,Front view
+PROP-0202,seed_media/image11.jpeg,false,Balcony
+PROP-0203,seed_media/image1.jpeg,true,Kitchen
+PROP-0203,seed_media/image13.jpeg,false,Common area
+PROP-0203,seed_media/image2.jpeg,false,Exterior
+PROP-0204,seed_media/image2.jpeg,true,Dining area
+PROP-0204,seed_media/image1.jpeg,false,Front view
+PROP-0205,seed_media/image7.jpeg,true,Bathroom
+PROP-0205,seed_media/image8.jpeg,false,Bathroom
+PROP-0205,seed_media/image2.jpeg,false,Common area
+PROP-0205,seed_media/image4.jpeg,false,Entrance
+PROP-0206,seed_media/image2.jpeg,true,Dining area
+PROP-0206,seed_media/image4.jpeg,false,Bedroom
+PROP-0206,seed_media/image3.jpeg,false,Dining area
+PROP-0207,seed_media/image1.jpeg,true,Entrance
+PROP-0207,seed_media/image3.jpeg,false,Front view
+PROP-0207,seed_media/image14.jpeg,false,Balcony
+PROP-0208,seed_media/image11.jpeg,true,Bedroom
+PROP-0208,seed_media/image14.jpeg,false,Balcony
+PROP-0208,seed_media/image1.jpeg,false,Master bedroom
+PROP-0208,seed_media/image13.jpeg,false,Street view
+PROP-0209,seed_media/image9.jpeg,true,Street view
+PROP-0209,seed_media/image2.jpeg,false,View from window
+PROP-0209,seed_media/image8.jpeg,false,Interior
+PROP-0209,seed_media/image6.jpeg,false,Common area
+PROP-0210,seed_media/image13.jpeg,true,Bedroom
+PROP-0210,seed_media/image1.jpeg,false,Common area
+PROP-0210,seed_media/image3.jpeg,false,Common area
+PROP-0210,seed_media/image8.jpeg,false,Balcony
+PROP-0211,seed_media/image9.jpeg,true,Street view
+PROP-0211,seed_media/image6.jpeg,false,Kitchen
+PROP-0211,seed_media/image5.jpeg,false,Guest room
+PROP-0212,seed_media/image7.jpeg,true,View from window
+PROP-0212,seed_media/image5.jpeg,false,Living room
+PROP-0212,seed_media/image2.jpeg,false,Master bedroom
+PROP-0213,seed_media/image13.jpeg,true,Front view
+PROP-0213,seed_media/image15.jpeg,false,Street view
+PROP-0214,seed_media/image13.jpeg,true,Interior
+PROP-0214,seed_media/image11.jpeg,false,Dining area
+PROP-0214,seed_media/image14.jpeg,false,Bedroom
+PROP-0214,seed_media/image5.jpeg,false,Living room
+PROP-0215,seed_media/image9.jpeg,true,Front view
+PROP-0215,seed_media/image13.jpeg,false,Guest room
+PROP-0216,seed_media/image4.jpeg,true,Bedroom
+PROP-0216,seed_media/image10.jpeg,false,Street view
+PROP-0216,seed_media/image6.jpeg,false,Exterior
+PROP-0216,seed_media/image14.jpeg,false,Master bedroom
+PROP-0217,seed_media/image13.jpeg,true,Exterior
+PROP-0217,seed_media/image8.jpeg,false,Master bedroom
+PROP-0218,seed_media/image4.jpeg,true,Street view
+PROP-0218,seed_media/image6.jpeg,false,Bathroom
+PROP-0219,seed_media/image2.jpeg,true,Balcony
+PROP-0219,seed_media/image4.jpeg,false,Bedroom
+PROP-0220,seed_media/image11.jpeg,true,Common area
+PROP-0220,seed_media/image15.jpeg,false,Exterior
+PROP-0221,seed_media/image3.jpeg,true,Entrance
+PROP-0221,seed_media/image2.jpeg,false,Balcony
+PROP-0221,seed_media/image5.jpeg,false,Entrance
+PROP-0222,seed_media/image13.jpeg,true,Guest room
+PROP-0222,seed_media/image6.jpeg,false,Bedroom
+PROP-0222,seed_media/image2.jpeg,false,Dining area
+PROP-0222,seed_media/image14.jpeg,false,Balcony
+PROP-0223,seed_media/image14.jpeg,true,Dining area
+PROP-0223,seed_media/image13.jpeg,false,Entrance
+PROP-0224,seed_media/image13.jpeg,true,Common area
+PROP-0224,seed_media/image12.jpeg,false,Interior
+PROP-0225,seed_media/image2.jpeg,true,Master bedroom
+PROP-0225,seed_media/image12.jpeg,false,Dining area
+PROP-0225,seed_media/image7.jpeg,false,Street view
+PROP-0226,seed_media/image5.jpeg,true,View from window
+PROP-0226,seed_media/image7.jpeg,false,View from window
+PROP-0226,seed_media/image15.jpeg,false,Living room
+PROP-0226,seed_media/image10.jpeg,false,Street view
+PROP-0227,seed_media/image14.jpeg,true,Living room
+PROP-0227,seed_media/image3.jpeg,false,Street view
+PROP-0227,seed_media/image6.jpeg,false,Front view
+PROP-0227,seed_media/image7.jpeg,false,Common area
+PROP-0228,seed_media/image15.jpeg,true,Kitchen
+PROP-0228,seed_media/image5.jpeg,false,Exterior
+PROP-0228,seed_media/image10.jpeg,false,Guest room
+PROP-0229,seed_media/image10.jpeg,true,Street view
+PROP-0229,seed_media/image3.jpeg,false,Living room
+PROP-0229,seed_media/image2.jpeg,false,Entrance
+PROP-0230,seed_media/image9.jpeg,true,Dining area
+PROP-0230,seed_media/image3.jpeg,false,Guest room
+PROP-0230,seed_media/image7.jpeg,false,Front view
+PROP-0230,seed_media/image5.jpeg,false,Common area
+PROP-0231,seed_media/image2.jpeg,true,Front view
+PROP-0231,seed_media/image15.jpeg,false,View from window
+PROP-0231,seed_media/image14.jpeg,false,Common area
+PROP-0232,seed_media/image7.jpeg,true,Guest room
+PROP-0232,seed_media/image8.jpeg,false,Front view
+PROP-0232,seed_media/image1.jpeg,false,Bathroom
+PROP-0232,seed_media/image9.jpeg,false,Exterior
+PROP-0233,seed_media/image3.jpeg,true,Entrance
+PROP-0233,seed_media/image2.jpeg,false,Interior
+PROP-0233,seed_media/image15.jpeg,false,Balcony
+PROP-0233,seed_media/image1.jpeg,false,Balcony
+PROP-0234,seed_media/image9.jpeg,true,Street view
+PROP-0234,seed_media/image14.jpeg,false,Front view
+PROP-0235,seed_media/image9.jpeg,true,Street view
+PROP-0235,seed_media/image10.jpeg,false,Interior
+PROP-0235,seed_media/image13.jpeg,false,Common area
+PROP-0235,seed_media/image7.jpeg,false,Bathroom
+PROP-0236,seed_media/image15.jpeg,true,Bathroom
+PROP-0236,seed_media/image5.jpeg,false,Bathroom
+PROP-0237,seed_media/image13.jpeg,true,Street view
+PROP-0237,seed_media/image4.jpeg,false,Bedroom
+PROP-0238,seed_media/image4.jpeg,true,Exterior
+PROP-0238,seed_media/image13.jpeg,false,View from window
+PROP-0239,seed_media/image11.jpeg,true,Guest room
+PROP-0239,seed_media/image4.jpeg,false,Exterior
+PROP-0239,seed_media/image9.jpeg,false,Kitchen
+PROP-0240,seed_media/image11.jpeg,true,Interior
+PROP-0240,seed_media/image15.jpeg,false,Master bedroom
+PROP-0240,seed_media/image2.jpeg,false,Entrance
+PROP-0240,seed_media/image4.jpeg,false,Master bedroom
+PROP-0241,seed_media/image11.jpeg,true,Guest room
+PROP-0241,seed_media/image10.jpeg,false,Kitchen
+PROP-0242,seed_media/image6.jpeg,true,View from window
+PROP-0242,seed_media/image4.jpeg,false,Balcony
+PROP-0243,seed_media/image15.jpeg,true,View from window
+PROP-0243,seed_media/image9.jpeg,false,Entrance
+PROP-0243,seed_media/image14.jpeg,false,Living room
+PROP-0244,seed_media/image5.jpeg,true,Balcony
+PROP-0244,seed_media/image3.jpeg,false,Dining area
+PROP-0244,seed_media/image14.jpeg,false,Bathroom
+PROP-0245,seed_media/image15.jpeg,true,Kitchen
+PROP-0245,seed_media/image11.jpeg,false,Bedroom
+PROP-0246,seed_media/image7.jpeg,true,Balcony
+PROP-0246,seed_media/image10.jpeg,false,Common area
+PROP-0246,seed_media/image9.jpeg,false,Guest room
+PROP-0247,seed_media/image6.jpeg,true,Common area
+PROP-0247,seed_media/image4.jpeg,false,Interior
+PROP-0248,seed_media/image9.jpeg,true,Street view
+PROP-0248,seed_media/image4.jpeg,false,Balcony
+PROP-0249,seed_media/image3.jpeg,true,Bedroom
+PROP-0249,seed_media/image5.jpeg,false,View from window
+PROP-0249,seed_media/image7.jpeg,false,Balcony
+PROP-0249,seed_media/image6.jpeg,false,Bathroom
+PROP-0250,seed_media/image13.jpeg,true,Guest room
+PROP-0250,seed_media/image3.jpeg,false,Bathroom
+PROP-0250,seed_media/image6.jpeg,false,Dining area
+PROP-0250,seed_media/image11.jpeg,false,Common area
+PROP-0251,seed_media/image3.jpeg,true,Bathroom
+PROP-0251,seed_media/image13.jpeg,false,View from window
+PROP-0251,seed_media/image6.jpeg,false,Master bedroom
+PROP-0252,seed_media/image13.jpeg,true,Common area
+PROP-0252,seed_media/image6.jpeg,false,Dining area
+PROP-0253,seed_media/image4.jpeg,true,Master bedroom
+PROP-0253,seed_media/image10.jpeg,false,View from window
+PROP-0253,seed_media/image9.jpeg,false,Kitchen
+PROP-0254,seed_media/image13.jpeg,true,Balcony
+PROP-0254,seed_media/image10.jpeg,false,View from window
+PROP-0254,seed_media/image8.jpeg,false,Kitchen
+PROP-0255,seed_media/image7.jpeg,true,View from window
+PROP-0255,seed_media/image5.jpeg,false,Bathroom
+PROP-0255,seed_media/image4.jpeg,false,Balcony
+PROP-0255,seed_media/image14.jpeg,false,Master bedroom
+PROP-0256,seed_media/image14.jpeg,true,Dining area
+PROP-0256,seed_media/image13.jpeg,false,Interior
+PROP-0256,seed_media/image8.jpeg,false,Balcony
+PROP-0256,seed_media/image10.jpeg,false,Interior
+PROP-0257,seed_media/image8.jpeg,true,Entrance
+PROP-0257,seed_media/image13.jpeg,false,Front view
+PROP-0258,seed_media/image5.jpeg,true,Guest room
+PROP-0258,seed_media/image13.jpeg,false,Balcony
+PROP-0259,seed_media/image3.jpeg,true,Master bedroom
+PROP-0259,seed_media/image11.jpeg,false,Living room
+PROP-0260,seed_media/image1.jpeg,true,Dining area
+PROP-0260,seed_media/image12.jpeg,false,Dining area
+PROP-0261,seed_media/image6.jpeg,true,Entrance
+PROP-0261,seed_media/image13.jpeg,false,Exterior
+PROP-0261,seed_media/image15.jpeg,false,Master bedroom
+PROP-0262,seed_media/image1.jpeg,true,Kitchen
+PROP-0262,seed_media/image11.jpeg,false,Common area
+PROP-0262,seed_media/image8.jpeg,false,Common area
+PROP-0263,seed_media/image7.jpeg,true,Guest room
+PROP-0263,seed_media/image11.jpeg,false,Entrance
+PROP-0263,seed_media/image1.jpeg,false,Master bedroom
+PROP-0264,seed_media/image2.jpeg,true,Exterior
+PROP-0264,seed_media/image12.jpeg,false,Guest room
+PROP-0264,seed_media/image11.jpeg,false,Kitchen
+PROP-0264,seed_media/image15.jpeg,false,View from window
+PROP-0265,seed_media/image13.jpeg,true,Balcony
+PROP-0265,seed_media/image6.jpeg,false,Exterior
+PROP-0265,seed_media/image3.jpeg,false,Street view
+PROP-0266,seed_media/image13.jpeg,true,Exterior
+PROP-0266,seed_media/image5.jpeg,false,Kitchen
+PROP-0267,seed_media/image12.jpeg,true,Entrance
+PROP-0267,seed_media/image6.jpeg,false,Master bedroom
+PROP-0267,seed_media/image11.jpeg,false,Front view
+PROP-0267,seed_media/image3.jpeg,false,Bathroom
+PROP-0268,seed_media/image10.jpeg,true,Entrance
+PROP-0268,seed_media/image11.jpeg,false,Bedroom
+PROP-0268,seed_media/image4.jpeg,false,Guest room
+PROP-0269,seed_media/image5.jpeg,true,View from window
+PROP-0269,seed_media/image7.jpeg,false,Master bedroom
+PROP-0269,seed_media/image12.jpeg,false,Common area
+PROP-0270,seed_media/image1.jpeg,true,Exterior
+PROP-0270,seed_media/image3.jpeg,false,Bedroom
+PROP-0271,seed_media/image2.jpeg,true,Common area
+PROP-0271,seed_media/image14.jpeg,false,Guest room
+PROP-0271,seed_media/image10.jpeg,false,Front view
+PROP-0271,seed_media/image1.jpeg,false,Interior
+PROP-0272,seed_media/image7.jpeg,true,Master bedroom
+PROP-0272,seed_media/image13.jpeg,false,Balcony
+PROP-0273,seed_media/image7.jpeg,true,Street view
+PROP-0273,seed_media/image15.jpeg,false,Common area
+PROP-0273,seed_media/image4.jpeg,false,Balcony
+PROP-0273,seed_media/image5.jpeg,false,Bathroom
+PROP-0274,seed_media/image11.jpeg,true,Exterior
+PROP-0274,seed_media/image14.jpeg,false,Exterior
+PROP-0275,seed_media/image9.jpeg,true,Bathroom
+PROP-0275,seed_media/image2.jpeg,false,Front view
+PROP-0275,seed_media/image6.jpeg,false,Master bedroom
+PROP-0276,seed_media/image3.jpeg,true,Bedroom
+PROP-0276,seed_media/image2.jpeg,false,Common area
+PROP-0277,seed_media/image1.jpeg,true,Front view
+PROP-0277,seed_media/image6.jpeg,false,Guest room
+PROP-0277,seed_media/image12.jpeg,false,Kitchen
+PROP-0278,seed_media/image4.jpeg,true,Interior
+PROP-0278,seed_media/image11.jpeg,false,Bedroom
+PROP-0278,seed_media/image7.jpeg,false,View from window
+PROP-0278,seed_media/image13.jpeg,false,Bedroom
+PROP-0279,seed_media/image2.jpeg,true,Common area
+PROP-0279,seed_media/image14.jpeg,false,Bedroom
+PROP-0279,seed_media/image8.jpeg,false,Dining area
+PROP-0279,seed_media/image12.jpeg,false,Interior
+PROP-0280,seed_media/image10.jpeg,true,Common area
+PROP-0280,seed_media/image14.jpeg,false,Living room
+PROP-0280,seed_media/image5.jpeg,false,Interior
+PROP-0280,seed_media/image9.jpeg,false,Master bedroom
